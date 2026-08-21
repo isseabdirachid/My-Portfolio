@@ -1,0 +1,10 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "portfolio": "Portfolio",
+        "blog": "Blog",
+        "contact": "Contact",
+        "downloadCv": "Download CV"
+    }
+}

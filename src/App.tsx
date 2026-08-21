@@ -1,13 +1,25 @@
-import { Button } from "@/components/ui/button";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import About from "@/pages/About";
+import Blog from "@/pages/Blog";
+import Contact from "@/pages/Contact";
+import Home from "@/pages/Home";
+import Portfolio from "@/pages/Portfolio";
+import MainLayout from "@/layouts/MainLayout";
+
 function App() {
-
-
-  return (
-    <>
-      <h2 className="bg-amber-400">Hell </h2>
-        <Button className="bg-amber-400 shimmer-color-amber-50 m-4 p16 rounded-2xl">Click Me</Button>
-    </>
-  )
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route element={<MainLayout />}>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/portfolio" element={<Portfolio />} />
+                    <Route path="/blog" element={<Blog />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
-export default App
+export default App;
