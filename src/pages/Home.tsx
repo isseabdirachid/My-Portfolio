@@ -1,11 +1,11 @@
 
-
+import Hero from "@/components/Hero/Hero";
 
 function Home() {
     return (
-        <main className="bg-background-dark">
+        <main >
             <div >
-            <h1>Home</h1>
+                <Hero />
 
             </div>
         </main>
