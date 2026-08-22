@@ -1,5 +1,6 @@
 import { FileText, ShieldAlert } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -19,6 +20,7 @@ interface CVDialogProps {
 
 function CVDialog({ open, onOpenChange }: CVDialogProps) {
     const navigate = useNavigate();
+    const { t } = useTranslation();
 
     const handleContact = () => {
         onOpenChange(false);
@@ -45,11 +47,11 @@ function CVDialog({ open, onOpenChange }: CVDialogProps) {
                     </div>
 
                     <DialogTitle className="text-xl">
-                        CV Request
+                        {t("cv.title")}
                     </DialogTitle>
 
                     <DialogDescription className="text-secondary-custom/70">
-                        My CV is shared privately. Please email me to request a copy.
+                        {t("cv.description")}
                     </DialogDescription>
                 </DialogHeader>
 
@@ -59,13 +61,11 @@ function CVDialog({ open, onOpenChange }: CVDialogProps) {
 
                         <div>
                             <h3 className="font-medium">
-                                Thank You for Your Interest
+                                {t("cv.interestTitle")}
                             </h3>
 
                             <p className="mt-1 text-sm opacity-70">
-                                For privacy and data protection, CV requests are
-                                handled personally. Send me a short email, and
-                                I’ll be happy to share my CV with you directly.
+                                {t("cv.privacyMessage")}
                             </p>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ function CVDialog({ open, onOpenChange }: CVDialogProps) {
                         onClick={handleContact}
                         className="w-full bg-primary-custom text-white hover:bg-primary-custom/90 sm:w-auto"
                     >
-                        Contact Me
+                        {t("cv.contact")}
                     </Button>
 
                     <Button
@@ -86,7 +86,7 @@ function CVDialog({ open, onOpenChange }: CVDialogProps) {
                         onClick={() => onOpenChange(false)}
                         className="w-full sm:w-auto"
                     >
-                        Cancel
+                        {t("cv.cancel")}
                     </Button>
                 </DialogFooter>
             </DialogContent>

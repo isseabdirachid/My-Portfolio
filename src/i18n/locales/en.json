@@ -6,5 +6,25 @@
         "blog": "Blog",
         "contact": "Contact",
         "downloadCv": "Download CV"
+    },
+    "hero": {
+        "greeting": "Hi, I am",
+        "name": "Isse Abdirachid",
+        "profession": "IT Specialist",
+        "position": "Apprentice",
+        "description": "I’m passionate about building modern, responsive, and user-friendly digital experiences with clean code and thoughtful design. I’m continuously developing my skills in web and mobile development, with the goal of becoming a well-rounded full-stack developer.",
+        "connect": "Let's Connect",
+        "viewWork": "View My Work"
+    },
+
+    "cv": {
+        "title": "CV Request",
+        "description": "My CV is shared privately. Please email me to request a copy.",
+        "interestTitle": "Thank You for Your Interest",
+        "privacyMessage": "For privacy and data protection, CV requests are handled personally. Send me a short email and I’ll be happy to share my CV with you directly.",
+        "contact": "Contact Me",
+        "cancel": "Cancel"
     }
 }
+
+

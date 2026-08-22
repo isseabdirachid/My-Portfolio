@@ -6,14 +6,14 @@ import { Button } from "@/components/ui/button";
 
 const languages = [
     {
-        code: "en",
-        name: "English",
-        flag: "gb",
-    },
-    {
         code: "de",
         name: "Deutsch",
         flag: "de",
+    },
+    {
+        code: "en",
+        name: "English",
+        flag: "gb",
     },
 ] as const;
 
@@ -27,7 +27,7 @@ function LanguageSwitcher() {
         ) ?? languages[0];
 
     const changeLanguage = (language: "en" | "de") => {
-        i18n.changeLanguage(language);
+        void i18n.changeLanguage(language);
         setOpen(false);
     };
 

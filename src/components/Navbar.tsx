@@ -1,6 +1,7 @@
 import { Download } from "lucide-react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import logo from "@/assets/images/logo.png";
 
@@ -11,15 +12,16 @@ import MobileNav from "@/components/MobileNav";
 import ModeToggle from "@/components/ModeToggle";
 
 const navItems = [
-    { label: "Home", to: "/" },
-    { label: "About", to: "/about" },
-    { label: "Portfolio", to: "/portfolio" },
-    { label: "Blog", to: "/blog" },
-    { label: "Contact", to: "/contact" },
-];
+    { key: "home", to: "/" },
+    { key: "about", to: "/about" },
+    { key: "portfolio", to: "/portfolio" },
+    { key: "blog", to: "/blog" },
+    { key: "contact", to: "/contact" },
+] as const;
 
 function Navbar() {
     const [cvOpen, setCvOpen] = useState(false);
+    const { t } = useTranslation();
 
     return (
         <>
@@ -53,7 +55,7 @@ function Navbar() {
                                     }`
                                 }
                             >
-                                {item.label}
+                                {t(`navbar.${item.key}`)}
                             </NavLink>
                         ))}
                     </div>
@@ -83,7 +85,7 @@ function Navbar() {
                             className="hidden gap-2 bg-primary-custom text-white hover:bg-primary-custom/90 sm:flex"
                         >
                             <Download className="size-4" />
-                            Download CV
+                            {t("navbar.downloadCv")}
                         </Button>
                     </div>
                 </div>
