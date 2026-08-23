@@ -5,6 +5,25 @@
         "portfolio": "Portfolio",
         "blog": "Blog",
         "contact": "Kontakt",
-        "downloadCv": "Lebenslauf herunterladen"
+        "downloadCv": "CV Laden"
+    },
+    "hero": {
+        "greeting": "Hallo, ich bin",
+        "name": "Isse Abdirachid",
+        "profession": "Fachinformatiker",
+        "position": "Auszubildender",
+        "description": "Ich begeistere mich dafür, moderne, responsive und benutzerfreundliche digitale Erlebnisse mit sauberem Code und durchdachtem Design zu entwickeln. Ich erweitere kontinuierlich meine Kenntnisse in der Web- und Mobile-Entwicklung mit dem Ziel, ein vielseitiger Full-Stack-Entwickler zu werden.",
+        "connect": "Vernetzen",
+        "viewWork": "Projekte"
+    },
+
+    "cv": {
+        "title": "Lebenslauf anfordern",
+        "description": "Mein Lebenslauf wird privat geteilt. Bitte kontaktieren Sie mich per E-Mail um eine Kopie anzufordern.",
+        "interestTitle": "Vielen Dank für Ihr Interesse",
+        "privacyMessage": "Aus Datenschutzgründen werden Anfragen zu meinem Lebenslauf persönlich bearbeitet. Senden Sie mir eine kurze E-Mail und ich teile meinen Lebenslauf gerne direkt mit Ihnen.",
+        "contact": "Kontakt ",
+        "cancel": "Abbrechen"
     }
 }
+
