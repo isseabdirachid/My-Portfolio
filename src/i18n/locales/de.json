@@ -24,6 +24,11 @@
         "privacyMessage": "Aus Datenschutzgründen werden Anfragen zu meinem Lebenslauf persönlich bearbeitet. Senden Sie mir eine kurze E-Mail und ich teile meinen Lebenslauf gerne direkt mit Ihnen.",
         "contact": "Kontakt ",
         "cancel": "Abbrechen"
+    },
+    "about": {
+        "title": "Über mich",
+        "description": "Ich bin angehender Software Engineer und absolviere eine duale, IHK-anerkannte Ausbildung zum Fachinformatiker für Anwendungsentwicklung. Ich entwickle gerne moderne Websites und Anwendungen und lege dabei großen Wert auf sauberen Code, gutes Design und eine intuitive User Experience. Mein Ziel ist es, meine Kenntnisse im Web und Mobile-Development kontinuierlich zu erweitern und langfristig Full-Stack Developer zu werden. Durch meine Ausbildung und eigene Projekte sammle ich praktische Erfahrungen, lerne neue Technologien und setze Ideen in funktionale Anwendungen um. Für mich bedeutet Development, Probleme zu lösen, Mehrwert zu schaffen und mich kontinuierlich weiterzuentwickeln.",
+        "resume": "CV Ansehen"
     }
 }
 
