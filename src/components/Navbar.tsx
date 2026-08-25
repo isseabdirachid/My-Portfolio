@@ -13,7 +13,7 @@ import ModeToggle from "@/components/ModeToggle";
 
 const navItems = [
     { key: "home", to: "/" },
-    { key: "about", to: "/about" },
+    { key: "about", to: "/About" },
     { key: "portfolio", to: "/portfolio" },
     { key: "blog", to: "/blog" },
     { key: "contact", to: "/contact" },

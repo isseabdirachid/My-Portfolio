@@ -7,7 +7,7 @@ function HeroContent() {
 
     return (
         <div className="max-w-2xl">
-            <p className="mb-4 text-sm font-medium tracking-[0.25em] text-primary-custom">
+            <p className="mb-4 text-sm font-poppins font-medium tracking-[0.25em]">
                 👋 {t("hero.greeting")}
             </p>
 
