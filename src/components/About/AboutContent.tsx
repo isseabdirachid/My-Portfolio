@@ -16,7 +16,7 @@ function AboutContent() {
 
             <div className="mx-auto mt-2 h-1 w-32 rounded-full bg-primary-custom lg:mx-0" />
 
-            <p className="mx-auto mt-5 w-full max-w-2xl px-4 text-base leading-7 text-secondary-custom/70 sm:px-6 sm:text-lg lg:mx-0 lg:px-0">
+            <p className="mt-5 w-full max-w-2xl px-0 text-left text-md leading-7 text-secondary-custom/70 sm:mx-auto sm:px-6 sm:text-lg lg:mx-0 lg:px-0">
                 {t("about.description")}
             </p>
 
