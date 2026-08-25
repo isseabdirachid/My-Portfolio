@@ -1,4 +1,4 @@
-import {  Briefcase,  Handshake} from "lucide-react";
+import { Briefcase, Handshake } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -8,10 +8,10 @@ function HeroActions() {
     const { t } = useTranslation();
 
     return (
-        <div className="mt-8 flex flex-wrap items-center gap-3">
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-3 sm:justify-start">
             <Button
                 asChild
-                className="p-4 gap-2 bg-primary-custom text-white hover:bg-primary-custom/90"
+                className="gap-2 bg-primary-custom p-4 text-white hover:bg-primary-custom/90"
             >
                 <Link to="/contact">
                     {t("hero.connect")}
@@ -26,7 +26,7 @@ function HeroActions() {
             >
                 <Link to="/portfolio">
                     {t("hero.viewWork")}
-                    <Briefcase className="w-6 h-6 text-primary-custom" />
+                    <Briefcase className="size-6 text-primary-custom" />
                 </Link>
             </Button>
         </div>
