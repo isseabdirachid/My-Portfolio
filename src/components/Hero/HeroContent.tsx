@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-
+import ShinyText from "@/components/animations/ShinyText";
 import "@/styles/hero.css";
 
 function HeroContent() {
@@ -12,7 +12,20 @@ function HeroContent() {
             </p>
 
             <h2 className="font-poppins mt-3 text-xl font-semibold text-primary-custom sm:text-2xl">
-                {t("hero.name")}
+
+                <ShinyText
+                    text={t("hero.name")}
+                    speed={2}
+                    delay={0}
+                    color="#F97316"
+                    shineColor="#000000"
+                    spread={120}
+                    direction="left"
+                    yoyo={false}
+                    pauseOnHover={false}
+                    disabled={false}
+                    className="font-bold"
+                />
             </h2>
 
             <h1 className="hero-title-right mt-3 text-center text-4xl font-bold leading-tight tracking-tight text-secondary-custom sm:text-5xl md:text-left lg:text-6xl">

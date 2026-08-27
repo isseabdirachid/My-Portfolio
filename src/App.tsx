@@ -5,10 +5,13 @@ import Contact from "@/pages/Contact";
 import Home from "@/pages/Home";
 import Portfolio from "@/pages/Portfolio";
 import MainLayout from "@/layouts/MainLayout";
+import Background from "@/components/animations/Background";
 
 function App() {
     return (
         <BrowserRouter>
+            <Background />
+
             <Routes>
                 <Route element={<MainLayout />}>
                     <Route path="/" element={<Home />} />
