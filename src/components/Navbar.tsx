@@ -57,7 +57,7 @@ function Navbar() {
                             >
                                 {t(`navbar.${item.key}`)}
                             </NavLink>
-                        ))}
+                        )}
                     </div>
 
                     {/* Right Side */}
