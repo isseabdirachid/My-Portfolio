@@ -2,17 +2,29 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import CVDialog from "@/components/CVDialog";
-
+import CVDialog from "@/components/shared/CVDialog.tsx";
+import ShinyText from "@/components/animations/ShinyText";
 function AboutContent() {
     const [cvOpen, setCvOpen] = useState(false);
     const { t } = useTranslation();
 
     return (
         <div className="w-full max-w-2xl text-center lg:text-left">
-            <h2 className="font-poppins text-4xl font-bold text-secondary-custom sm:text-5xl">
-                {t("about.title")}
-            </h2>
+            <h1 className="text-xl font-bold tracking-tight sm:text-4xl md:text-5xl">
+                <ShinyText
+                    text={t("about.title")}
+                    speed={2}
+                    delay={0}
+                    color="currentColor"
+                    shineColor="#F97316"
+                    spread={120}
+                    direction="left"
+                    yoyo={false}
+                    pauseOnHover={false}
+                    disabled={false}
+                    className="font-bold text-slate-900 dark:text-white"
+                />
+            </h1>
 
             <div className="mx-auto mt-2 h-1 w-32 rounded-full bg-primary-custom lg:mx-0" />
 
