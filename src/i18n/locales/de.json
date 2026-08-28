@@ -37,6 +37,20 @@
         "masterProgress": "Master ",
         "learningNow": "Lerne ",
         "nextUp": "Als Nächstes"
+    },
+    "game": {
+        "title": "Kannst du Gedanken lesen?",
+        "subtitle": "8 Chancen, deine übersinnlichen Fähigkeiten zu beweisen",
+        "guessTitle": "Errate die Zahl!",
+        "guessDescription": "Ich denke an eine Zahl zwischen 1 und 100.",
+        "placeholder": "Zahl eingeben...",
+        "guess": "Raten",
+        "attempts": "Chancen",
+        "tooHigh": "Zu hoch! Versuche eine kleinere Zahl.",
+        "tooLow": "Zu niedrig! Versuche eine größere Zahl.",
+        "correct": "🎉 Richtig! Du hast die Zahl erraten!",
+        "gameOver": "Spiel vorbei! Die Zahl war {{number}}.",
+        "newGame": "Neues Spiel"
     }
 }
 

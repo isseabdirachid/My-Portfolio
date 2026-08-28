@@ -37,6 +37,20 @@
         "masterProgress": "Master ",
         "learningNow": "Learning ",
         "nextUp": "Next Up"
+    },
+    "game": {
+        "title": "Are you a mind reader?",
+        "subtitle": "8 chances to prove your psychic powers",
+        "guessTitle": "Guess The Number",
+        "guessDescription": "I'm thinking of a number between 1 and 100.",
+        "placeholder": "Enter a number...",
+        "guess": "Guess",
+        "attempts": "Chances",
+        "tooHigh": "Too high! Try a smaller number.",
+        "tooLow": "Too low! Try a larger number.",
+        "correct": "🎉 Correct! You guessed the number!",
+        "gameOver": "Game over! The number was {{number}}.",
+        "newGame": "New Game"
     }
 }
 
