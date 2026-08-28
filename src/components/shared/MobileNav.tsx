@@ -2,8 +2,8 @@ import { Download, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-import { Button } from "@/components/ui/button";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { Button } from "@/components/ui/button.tsx";
+import LanguageSwitcher from "@/components/shared/LanguageSwitcher.tsx";
 
 
 const navItems = [

@@ -29,8 +29,17 @@
         "title": "About Me",
         "description": "I am an aspiring Software Engineer and currently completing a dual, IHK-recognized vocational training program as a Fachinformatiker für Anwendungsentwicklung. I enjoy building modern websites and applications and place great importance on clean code, good design, and an intuitive user experience. My goal is to continuously expand my knowledge in web and mobile development and eventually become a Full-Stack Developer. Through my Ausbildung and personal projects, I gain practical experience, learn new technologies, and turn ideas into functional applications. For me, development means solving problems, creating value, and continuously improving myself.",
         "resume": "View Resume"
+    },
+
+    "stack": {
+        "title": "My Stack",
+        "description": "Technologies I use to build modern digital products.",
+        "masterProgress": "Master ",
+        "learningNow": "Learning ",
+        "nextUp": "Next Up"
     }
 }
+
 
 
 
