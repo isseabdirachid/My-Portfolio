@@ -11,7 +11,7 @@ const FrontStack = () => {
             <div className="flex w-full flex-col items-center md:flex-row md:justify-center">
 
                 {/* Frontend */}
-                <div className="flex h-12 items-center gap-2 rounded-full border border-emerald-500/20 bg-emerald-500/5 px-5 shadow-sm">
+                <div className="flex h-8 items-center gap-2 rounded-full border border-emerald-500/20 bg-emerald-500/5 px-2 shadow-sm">
                     <span className="size-2.5 rounded-full bg-emerald-500" />
 
                     <span className="text-sm font-bold uppercase tracking-wider text-emerald-500">

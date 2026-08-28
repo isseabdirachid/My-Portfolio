@@ -7,7 +7,7 @@ const MobileStack = () => {
             <div className="flex w-full flex-col items-center md:flex-row md:justify-center">
 
                 {/* Mobile */}
-                <div className="order-1 flex h-12 items-center gap-2 rounded-full border border-primary-custom/20 bg-primary-custom/5 px-5 shadow-sm md:order-2">
+                <div className="order-1 flex h-8 items-center gap-2 rounded-full border border-primary-custom/20 bg-primary-custom/5 px-4 shadow-sm md:order-2">
                     <span className="size-2.5 rounded-full bg-primary-custom" />
 
                     <span className="text-sm font-bold uppercase tracking-wider text-primary-custom">

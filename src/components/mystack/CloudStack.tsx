@@ -7,13 +7,18 @@ const DevOpsStack = () => {
             <div className="flex w-full flex-col items-center md:flex-row md:justify-center">
 
                 {/* DevOps */}
-                <div className="flex h-12 items-center gap-2 rounded-full border border-primary-custom/20 bg-primary-custom/5 px-5 shadow-sm">
-                    <span className="size-2.5 rounded-full bg-primary-custom" />
 
-                    <span className="text-sm font-bold uppercase tracking-wider text-primary-custom">
-                        DevOps
-                    </span>
+                <div className="flex h-8 items-center gap-2 rounded-full border border-emerald-500/20 bg-gradient-to-r from-emerald-500/10 via-emerald-500/5 to-blue-500/5 px-4 shadow-sm">
+                    <span className="size-2.5 rounded-full bg-emerald-500" />
+
+
+                    <span className="text-sm font-bold uppercase tracking-wider bg-gradient-to-r from-emerald-500 via-emerald-500 to-blue-500 bg-clip-text text-transparent">
+                      DevOps
+                     </span>
+
                 </div>
+
+
 
                 {/* Mobile Connector */}
                 <div className="h-5 w-px bg-slate-300 dark:bg-slate-700 md:hidden" />
