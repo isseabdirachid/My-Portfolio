@@ -167,9 +167,7 @@ const SpecularButton = ({
     const btnRef = useRef<HTMLButtonElement>(null);
     const fxRef = useRef<HTMLSpanElement>(null);
 
-    const propsRef = useRef<ShaderProps>({} as ShaderProps);
-
-    propsRef.current = {
+    const propsRef = useRef<ShaderProps>({
         radius,
         lineColor,
         baseColor,
@@ -181,7 +179,35 @@ const SpecularButton = ({
         followMouse,
         proximity,
         autoAnimate,
-    };
+    });
+
+    useEffect(() => {
+        propsRef.current = {
+            radius,
+            lineColor,
+            baseColor,
+            intensity,
+            shineSize,
+            shineFade,
+            thickness,
+            speed,
+            followMouse,
+            proximity,
+            autoAnimate,
+        };
+    }, [
+        radius,
+        lineColor,
+        baseColor,
+        intensity,
+        shineSize,
+        shineFade,
+        thickness,
+        speed,
+        followMouse,
+        proximity,
+        autoAnimate,
+    ]);
 
     useEffect(() => {
         const btn = btnRef.current;
