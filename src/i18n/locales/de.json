@@ -29,6 +29,29 @@
         "title": "Über mich",
         "description": "Ich bin angehender Software Engineer und absolviere eine duale, IHK-anerkannte Ausbildung zum Fachinformatiker für Anwendungsentwicklung. Ich entwickle gerne moderne Websites und Anwendungen und lege dabei großen Wert auf sauberen Code, gutes Design und eine intuitive User Experience. Mein Ziel ist es, meine Kenntnisse im Web und Mobile-Development kontinuierlich zu erweitern und langfristig Full-Stack Developer zu werden. Durch meine Ausbildung und eigene Projekte sammle ich praktische Erfahrungen, lerne neue Technologien und setze Ideen in funktionale Anwendungen um. Für mich bedeutet Development, Probleme zu lösen, Mehrwert zu schaffen und mich kontinuierlich weiterzuentwickeln.",
         "resume": "CV Ansehen"
+    },
+
+    "stack": {
+        "title": "Mein Stack",
+        "description": "Technologien, die ich nutze, um moderne digitale Produkte zu entwickeln.",
+        "masterProgress": "Master ",
+        "learningNow": "Lerne ",
+        "nextUp": "Als Nächstes"
+    },
+    "game": {
+        "title": "Kannst du Gedanken lesen?",
+        "subtitle": "8 Chancen, deine übersinnlichen Fähigkeiten zu beweisen",
+        "guessTitle": "Errate die Zahl!",
+        "guessDescription": "Ich denke an eine Zahl zwischen 1 und 100.",
+        "placeholder": "Zahl eingeben...",
+        "guess": "Raten",
+        "attempts": "Chancen",
+        "tooHigh": "Zu hoch! Versuche eine kleinere Zahl.",
+        "tooLow": "Zu niedrig! Versuche eine größere Zahl.",
+        "correct": "🎉 Richtig! Du hast die Zahl erraten!",
+        "gameOver": "Spiel vorbei! Die Zahl war {{number}}.",
+        "newGame": "Neues Spiel"
     }
 }
+
 
