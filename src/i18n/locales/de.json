@@ -51,7 +51,12 @@
         "correct": "🎉 Richtig! Du hast die Zahl erraten!",
         "gameOver": "Spiel vorbei! Die Zahl war {{number}}.",
         "newGame": "Neues Spiel"
+    },
+    "projects": {
+        "title": "Projekte",
+        "description": "Einige der Projekte, die ich mit Können, Kreativität, moderner Technologie und responsivem Design entwickelt habe."
     }
+
 }
 
 
