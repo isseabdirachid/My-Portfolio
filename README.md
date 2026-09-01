@@ -2,7 +2,7 @@
 
 A modern full-stack personal portfolio designed to showcase my skills,
 projects, experience, and development journey through a clean, responsive,
-and interactive web experience.
+and interactive web experience.   
 
 ## ✨ Features
 
