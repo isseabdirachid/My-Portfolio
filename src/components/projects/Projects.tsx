@@ -16,12 +16,12 @@ function Projects() {
     return (
         <section
             id="projects"
-            className="w-full px-6 py-10 sm:py-24 lg:py-28"
+            className="w-full px-6 py-16 sm:py-18 lg:py-20"
         >
             <div className="mx-auto max-w-6xl">
-                <div className="mb-12 text-center">
+                <div className="mb-8 text-center">
 
-                    <h3 className="text-xl font-bold tracking-tight sm:text-4xl md:text-5xl">
+                    <h3 className="overflow-visible text-xl font-bold leading-normal tracking-tight sm:text-4xl md:text-5xl">
                         <ShinyText
                             text={t("projects.title")}
                             speed={2}

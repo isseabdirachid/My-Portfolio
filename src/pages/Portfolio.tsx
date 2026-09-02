@@ -1,9 +1,8 @@
-
-
+import Projects from "@/components/projects/Projects.tsx";
 function Portfolio() {
     return (
         <main>
-            <h1>About</h1>
+            <Projects />
         </main>
     );
 }
