@@ -20,8 +20,7 @@ function Projects() {
         >
             <div className="mx-auto max-w-6xl">
                 <div className="mb-8 text-center">
-
-                    <h3 className="overflow-visible text-xl font-bold leading-normal tracking-tight sm:text-4xl md:text-5xl">
+                    <h3 className="font-poppins text-4xl font-semibold leading-tight tracking-tight text-secondary-custom sm:text-5xl">
                         <ShinyText
                             text={t("projects.title")}
                             speed={2}
@@ -33,16 +32,13 @@ function Projects() {
                             yoyo={false}
                             pauseOnHover={false}
                             disabled={false}
-                            className="font-bold text-slate-900 dark:text-white"
+                            className="font-semibold text-slate-900 dark:text-white"
                         />
                     </h3>
 
-
-                    <p className="mx-auto mt-3 max-w-2xl px-4 text-sm leading-6 text-slate-500 dark:text-slate-400 sm:px-0 sm:text-base">
+                    <p className="mx-auto mt-3 max-w-2xl px-4 text-base leading-6 text-secondary-custom/60 sm:px-0 sm:text-lg">
                         {t("projects.description")}
                     </p>
-
-
                 </div>
 
                 <MagicBento

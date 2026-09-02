@@ -55,9 +55,45 @@
     "projects": {
         "title": "Projects",
         "description": "Some of the projects I’ve built with skill, creativity, modern technology, and responsive design."
-    }
+    },
 
+    "testimonials": {
+        "eyebrow": "Testimonials",
+        "title": "What I Stand For",
+        "description": "Teamwork, respect, community support, and helping others. I believe in working together, caring for people, and making a positive difference.",
+        "previous": "Previous testimonial",
+        "next": "Next testimonial",
+        "goTo": "Go to testimonial",
+        "items": [
+            {
+                "name": "John Doe",
+                "role": "CEO",
+                "company": "Tech Company",
+                "message": "Working with this developer was a great experience. The attention to detail, communication, and quality of work were excellent."
+            },
+            {
+                "name": "Sarah Smith",
+                "role": "Product Manager",
+                "company": "Creative Studio",
+                "message": "A very professional developer who understood exactly what we needed. The final result was clean, modern, and delivered on time."
+            },
+            {
+                "name": "Alex Johnson",
+                "role": "Founder",
+                "company": "Startup",
+                "message": "Great communication and attention to detail throughout the project. I would definitely recommend working with him."
+            },
+            {
+                "name": "Michael Brown",
+                "role": "Designer",
+                "company": "Digital Agency",
+                "message": "He transformed our ideas into a beautiful and functional interface. The whole process was smooth and professional."
+            }
+        ]
+    }
 }
+
+
 
 
 

@@ -12,7 +12,7 @@ const StackContent = () => {
     return (
         <div className="w-full text-center">
             {/* Title */}
-            <h1 className="text-xl font-bold tracking-tight sm:text-4xl md:text-5xl">
+            <h1 className="font-poppins text-4xl font-semibold leading-tight tracking-tight text-secondary-custom sm:text-5xl">
                 <ShinyText
                     text={t("stack.title")}
                     speed={2}
@@ -24,12 +24,12 @@ const StackContent = () => {
                     yoyo={false}
                     pauseOnHover={false}
                     disabled={false}
-                    className="font-bold text-slate-900 dark:text-white"
+                    className="font-semibold text-slate-900 dark:text-white"
                 />
             </h1>
 
             {/* Description */}
-            <p className="mx-auto mt-3 max-w-2xl px-4 text-sm leading-6 text-slate-500 dark:text-slate-400 sm:px-0 sm:text-base">
+            <p className="mx-auto mt-3 max-w-2xl px-4 text-base leading-6 text-secondary-custom/60 sm:px-0 sm:text-lg">
                 {t("stack.description")}
             </p>
 
