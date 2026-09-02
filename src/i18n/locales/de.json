@@ -16,13 +16,12 @@
         "connect": "Vernetzen",
         "viewWork": "Projekte"
     },
-
     "cv": {
         "title": "Lebenslauf anfordern",
         "description": "Mein Lebenslauf wird privat geteilt. Bitte kontaktieren Sie mich per E-Mail um eine Kopie anzufordern.",
         "interestTitle": "Vielen Dank für Ihr Interesse",
         "privacyMessage": "Aus Datenschutzgründen werden Anfragen zu meinem Lebenslauf persönlich bearbeitet. Senden Sie mir eine kurze E-Mail und ich teile meinen Lebenslauf gerne direkt mit Ihnen.",
-        "contact": "Kontakt ",
+        "contact": "Kontakt",
         "cancel": "Abbrechen"
     },
     "about": {
@@ -30,12 +29,11 @@
         "description": "Ich bin angehender Software Engineer und absolviere eine duale, IHK-anerkannte Ausbildung zum Fachinformatiker für Anwendungsentwicklung. Ich entwickle gerne moderne Websites und Anwendungen und lege dabei großen Wert auf sauberen Code, gutes Design und eine intuitive User Experience. Mein Ziel ist es, meine Kenntnisse im Web und Mobile-Development kontinuierlich zu erweitern und langfristig Full-Stack Developer zu werden. Durch meine Ausbildung und eigene Projekte sammle ich praktische Erfahrungen, lerne neue Technologien und setze Ideen in funktionale Anwendungen um. Für mich bedeutet Development, Probleme zu lösen, Mehrwert zu schaffen und mich kontinuierlich weiterzuentwickeln.",
         "resume": "CV Ansehen"
     },
-
     "stack": {
         "title": "Mein Stack",
         "description": "Technologien, die ich nutze, um moderne digitale Produkte zu entwickeln.",
-        "masterProgress": "Master ",
-        "learningNow": "Lerne ",
+        "masterProgress": "Master",
+        "learningNow": "Lerne",
         "nextUp": "Als Nächstes"
     },
     "game": {
@@ -51,7 +49,43 @@
         "correct": "🎉 Richtig! Du hast die Zahl erraten!",
         "gameOver": "Spiel vorbei! Die Zahl war {{number}}.",
         "newGame": "Neues Spiel"
+    },
+    "projects": {
+        "title": "Projekte",
+        "description": "Einige der Projekte, die ich mit Können, Kreativität, moderner Technologie und responsivem Design entwickelt habe."
+    },
+    "testimonials": {
+        "eyebrow": "Referenzen",
+        "title": "Wofür ich stehe",
+        "description": "Teamarbeit, Respekt, Unterstützung der Gemeinschaft und anderen Menschen zu helfen. Ich glaube an Zusammenarbeit, gegenseitige Unterstützung und daran, einen positiven Beitrag zu leisten.",
+        "previous": "Vorherige Referenz",
+        "next": "Nächste Referenz",
+        "goTo": "Zur Referenz",
+        "items": [
+            {
+                "name": "John Doe",
+                "role": "CEO",
+                "company": "Tech Company",
+                "message": "Die Zusammenarbeit mit diesem Entwickler war eine großartige Erfahrung. Die Liebe zum Detail, die Kommunikation und die Qualität der Arbeit waren hervorragend."
+            },
+            {
+                "name": "Sarah Smith",
+                "role": "Produktmanagerin",
+                "company": "Creative Studio",
+                "message": "Ein sehr professioneller Entwickler, der genau verstanden hat, was wir brauchen. Das Ergebnis war sauber, modern und wurde pünktlich geliefert."
+            },
+            {
+                "name": "Alex Johnson",
+                "role": "Gründer",
+                "company": "Startup",
+                "message": "Eine großartige Kommunikation und viel Liebe zum Detail während des gesamten Projekts. Ich würde die Zusammenarbeit definitiv weiterempfehlen."
+            },
+            {
+                "name": "Michael Brown",
+                "role": "Designer",
+                "company": "Digital Agency",
+                "message": "Er hat unsere Ideen in eine schöne und funktionale Benutzeroberfläche verwandelt. Der gesamte Prozess war reibungslos und professionell."
+            }
+        ]
     }
 }
-
-
