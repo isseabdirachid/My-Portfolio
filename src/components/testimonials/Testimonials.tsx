@@ -97,7 +97,7 @@ const Testimonials: React.FC = () => {
             onMouseEnter={() => setIsPaused(true)}
             onMouseLeave={() => setIsPaused(false)}
         >
-            <div className="text-center">
+            <div className="text-center ">
     <span className="testimonials-section__eyebrow font-semibold">
         {t("testimonials.eyebrow")}
     </span>
@@ -118,7 +118,7 @@ const Testimonials: React.FC = () => {
                     />
                 </h2>
 
-                <p className="mx-auto mt-3 max-w-2xl px-4 text-base leading-6 text-secondary-custom/60 sm:px-0 sm:text-lg">
+                <p className="mx-auto mt-3 max-w-2xl px-4 mb-14 text-base leading-6 text-secondary-custom/60 sm:px-0 sm:text-lg">
                     {t("testimonials.description")}
                 </p>
             </div>
