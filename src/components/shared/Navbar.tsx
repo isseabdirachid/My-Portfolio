@@ -5,11 +5,11 @@ import { useTranslation } from "react-i18next";
 
 import logo from "@/assets/images/logo.png";
 
-import { Button } from "@/components/ui/button";
-import CVDialog from "@/components/CVDialog";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
-import MobileNav from "@/components/MobileNav";
-import ModeToggle from "@/components/ModeToggle";
+import { Button } from "@/components/ui/button.tsx";
+import CVDialog from "@/components/shared/CVDialog.tsx";
+import LanguageSwitcher from "@/components/shared/LanguageSwitcher.tsx";
+import MobileNav from "@/components/shared/MobileNav.tsx";
+import ModeToggle from "@/components/shared/ModeToggle.tsx";
 
 const navItems = [
     { key: "home", to: "/" },

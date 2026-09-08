@@ -1,0 +1,504 @@
+/* =========================================================
+   MAGIC BENTO — SCOPED ONLY
+   Waxba kama saameynayo components kale.
+========================================================= */
+
+.magic-bento-scope {
+	--magic-bento-white: hsl(0, 0%, 100%);
+	--magic-bento-primary: var(--color-primary-custom);
+	--magic-bento-border: #2f293a;
+	--magic-bento-dark-bg: #120f17;
+
+	position: relative;
+	width: 100%;
+}
+
+
+/* =========================================================
+   GRID
+========================================================= */
+
+.magic-bento-scope .card-grid {
+	display: grid;
+	gap: 0.5em;
+	padding: 0.75em;
+	max-width: 54em;
+	margin: 0 auto;
+	font-size: clamp(
+			1rem,
+			0.9rem + 0.5vw,
+			1.5rem
+	);
+}
+
+
+/* =========================================================
+   BENTO SECTION
+========================================================= */
+
+.magic-bento-scope .bento-section {
+	position: relative;
+	user-select: none;
+}
+
+
+/* =========================================================
+   CARD
+========================================================= */
+
+.magic-bento-scope .magic-bento-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	position: relative;
+
+	aspect-ratio: 4 / 3;
+	min-height: 200px;
+
+	width: 100%;
+	max-width: 100%;
+
+	padding: 1.25em;
+
+	border-radius: 20px;
+	border: 1px solid var(--magic-bento-border);
+
+	/*
+	   Default = DARK
+	   Theme-ka website-ka ma beddelayno.
+	*/
+	background: var(--magic-bento-dark-bg);
+
+	font-weight: 300;
+
+	overflow: hidden;
+
+	transition:
+			box-shadow 0.3s ease,
+			border-color 0.3s ease,
+			background-color 0.3s ease,
+			transform 0.3s ease;
+
+	--glow-x: 50%;
+	--glow-y: 50%;
+	--glow-intensity: 0;
+	--glow-radius: 200px;
+
+	color: var(--magic-bento-white);
+}
+
+
+/* =========================================================
+   LIGHT MODE
+   Kaliya MagicBento.
+   Wax kale lama taabanayo.
+========================================================= */
+
+html:not(.dark) .magic-bento-scope
+.magic-bento-card {
+	background: #ffffff;
+	color: #120f17;
+	border-color: #e5e5e5;
+}
+
+
+/* =========================================================
+   DARK MODE
+   Kaliya MagicBento.
+========================================================= */
+
+html.dark .magic-bento-scope
+.magic-bento-card {
+	background: #120f17;
+	color: #ffffff;
+	border-color: #2f293a;
+}
+
+
+/* =========================================================
+   CARD LINK
+========================================================= */
+
+.magic-bento-scope
+.magic-bento-card__link {
+	display: block;
+	width: 100%;
+	height: 100%;
+
+	color: inherit;
+	text-decoration: none;
+}
+
+
+/* =========================================================
+   HOVER
+   Primary custom color ONLY.
+========================================================= */
+
+.magic-bento-scope
+.magic-bento-card:hover {
+	transform: translateY(-2px);
+
+	border-color:
+			var(--magic-bento-primary);
+
+	box-shadow:
+			0 8px 25px rgba(0, 0, 0, 0.15),
+			0 0 25px color-mix(
+					in srgb,
+					var(--magic-bento-primary) 25%,
+					transparent
+			);
+}
+
+
+/* =========================================================
+   HEADER / CONTENT
+========================================================= */
+
+.magic-bento-scope
+.magic-bento-card__header,
+
+.magic-bento-scope
+.magic-bento-card__content {
+	display: flex;
+	position: relative;
+
+	color: inherit;
+}
+
+
+.magic-bento-scope
+.magic-bento-card__header {
+	gap: 0.75em;
+	justify-content: space-between;
+}
+
+
+.magic-bento-scope
+.magic-bento-card__content {
+	flex-direction: column;
+}
+
+
+/* =========================================================
+   TEXT
+========================================================= */
+
+.magic-bento-scope
+.magic-bento-card__label {
+	font-size: 16px;
+}
+
+
+.magic-bento-scope
+.magic-bento-card__title,
+
+.magic-bento-scope
+.magic-bento-card__description {
+	--clamp-title: 1;
+	--clamp-desc: 2;
+}
+
+
+.magic-bento-scope
+.magic-bento-card__title {
+	font-weight: 400;
+	font-size: 16px;
+	margin: 0 0 0.25em;
+}
+
+
+.magic-bento-scope
+.magic-bento-card__description {
+	font-size: 12px;
+	line-height: 1.2;
+	opacity: 0.9;
+}
+
+
+/* =========================================================
+   TEXT AUTO HIDE
+========================================================= */
+
+.magic-bento-scope
+.magic-bento-card--text-autohide
+.magic-bento-card__title,
+
+.magic-bento-scope
+.magic-bento-card--text-autohide
+.magic-bento-card__description {
+	display: -webkit-box;
+
+	-webkit-box-orient: vertical;
+
+	overflow: hidden;
+
+	text-overflow: ellipsis;
+}
+
+
+.magic-bento-scope
+.magic-bento-card--text-autohide
+.magic-bento-card__title {
+	-webkit-line-clamp:
+			var(--clamp-title);
+
+	line-clamp:
+			var(--clamp-title);
+}
+
+
+.magic-bento-scope
+.magic-bento-card--text-autohide
+.magic-bento-card__description {
+	-webkit-line-clamp:
+			var(--clamp-desc);
+
+	line-clamp:
+			var(--clamp-desc);
+}
+
+
+/* =========================================================
+   IMAGE
+========================================================= */
+
+.magic-bento-scope
+.magic-bento-card__image {
+	position: relative;
+	z-index: 0;
+}
+
+
+/* =========================================================
+   GITHUB
+========================================================= */
+
+.magic-bento-scope
+.magic-bento-card__github {
+	color: inherit;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 599px) {
+
+	.magic-bento-scope .card-grid {
+		grid-template-columns: 1fr;
+
+		width: 90%;
+
+		margin: 0 auto;
+
+		padding: 0.5em;
+	}
+
+	.magic-bento-scope
+	.magic-bento-card {
+		width: 100%;
+		min-height: 180px;
+	}
+}
+
+
+@media (min-width: 600px) {
+
+	.magic-bento-scope .card-grid {
+		grid-template-columns:
+            repeat(2, 1fr);
+	}
+}
+
+
+@media (min-width: 1024px) {
+
+	.magic-bento-scope .card-grid {
+		grid-template-columns:
+            repeat(4, 1fr);
+	}
+
+	.magic-bento-scope
+	.magic-bento-card:nth-child(3) {
+		grid-column: span 2;
+		grid-row: span 2;
+	}
+
+	.magic-bento-scope
+	.magic-bento-card:nth-child(4) {
+		grid-column: 1 / span 2;
+		grid-row: 2 / span 2;
+	}
+
+	.magic-bento-scope
+	.magic-bento-card:nth-child(6) {
+		grid-column: 4;
+		grid-row: 3;
+	}
+}
+
+
+/* =========================================================
+   BORDER GLOW
+========================================================= */
+
+.magic-bento-scope
+.magic-bento-card--border-glow::after {
+	content: "";
+
+	position: absolute;
+
+	inset: 0;
+
+	padding: 6px;
+
+	background:
+			radial-gradient(
+					var(--glow-radius) circle
+					at var(--glow-x) var(--glow-y),
+
+					color-mix(
+							in srgb,
+							var(--magic-bento-primary)
+							calc(
+									var(--glow-intensity) * 80%
+							),
+							transparent
+					)
+					0%,
+
+					color-mix(
+							in srgb,
+							var(--magic-bento-primary)
+							calc(
+									var(--glow-intensity) * 40%
+							),
+							transparent
+					)
+					30%,
+
+					transparent 60%
+			);
+
+	border-radius: inherit;
+
+	-webkit-mask:
+			linear-gradient(#fff 0 0)
+			content-box,
+
+			linear-gradient(#fff 0 0);
+
+	-webkit-mask-composite: xor;
+
+	mask:
+			linear-gradient(#fff 0 0)
+			content-box,
+
+			linear-gradient(#fff 0 0);
+
+	mask-composite: exclude;
+
+	pointer-events: none;
+
+	opacity: 1;
+
+	transition:
+			opacity 0.3s ease;
+
+	z-index: 1;
+}
+
+
+.magic-bento-scope
+.magic-bento-card--border-glow:hover::after {
+	opacity: 1;
+}
+
+
+/* =========================================================
+   PARTICLE CONTAINER
+========================================================= */
+
+.magic-bento-scope
+.particle-container {
+	position: relative;
+	overflow: hidden;
+}
+
+
+.magic-bento-scope
+.particle::before {
+	content: "";
+
+	position: absolute;
+
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+
+	background:
+			color-mix(
+					in srgb,
+					var(--magic-bento-primary) 20%,
+					transparent
+			);
+
+	border-radius: 50%;
+
+	z-index: -1;
+}
+
+
+.magic-bento-scope
+.particle-container:hover {
+	box-shadow:
+			0 4px 20px
+			color-mix(
+					in srgb,
+					var(--magic-bento-primary) 20%,
+					transparent
+			),
+
+			0 0 30px
+			color-mix(
+					in srgb,
+					var(--magic-bento-primary) 20%,
+					transparent
+			);
+}
+
+
+/* =========================================================
+   GLOBAL SPOTLIGHT
+   Waxaa DOM-ka lagu append-gareeyaa body,
+   sidaas darteed selector-ku waa scoped class-ka
+   oo JS-ku waa inuu ku xiraa MagicBento.
+========================================================= */
+
+.magic-bento-scope
+.global-spotlight {
+	mix-blend-mode: screen;
+
+	will-change:
+			transform,
+			opacity;
+
+	pointer-events: none;
+}
+
+
+/* =========================================================
+   SAFETY
+   MagicBento ha ka bixin scope-kiisa.
+========================================================= */
+
+.magic-bento-scope *,
+.magic-bento-scope *::before,
+.magic-bento-scope *::after {
+	box-sizing: border-box;
+}
