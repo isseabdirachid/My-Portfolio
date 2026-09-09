@@ -87,5 +87,51 @@
                 "message": "Er hat unsere Ideen in eine schöne und funktionale Benutzeroberfläche verwandelt. Der gesamte Prozess war reibungslos und professionell."
             }
         ]
+    },"contact": {
+    "eyebrow": "Kontakt",
+    "description": "Haben Sie ein Projekt, eine Frage oder möchten Sie einfach Hallo sagen? Ich freue mich, von Ihnen zu hören.",
+    "contactHeadingLine1": "Lassen Sie uns",
+    "contactHeadingLine2": "über etwas",
+    "contactHeadingAccent": "Cooles",
+    "contactHeadingLine3": "sprechen",
+
+    "email": "E-Mail",
+    "emailValue": "isseabdirachid@email.com",
+    "emailHref": "mailto:your@email.com",
+
+    "availableFor": "Verfügbar für",
+    "availability": "Freelance & Zusammenarbeit",
+
+    "location": "Standort",
+    "locationValue": "Berlin, Deutschland",
+
+    "formLabel": "Nachricht senden",
+    "formTitle": "Kontaktieren Sie mich",
+
+    "name": "Name",
+    "namePlaceholder": "Ihr Name",
+
+    "emailPlaceholder": "sie@beispiel.de",
+
+    "message": "Nachricht",
+    "messagePlaceholder": "Erzählen Sie mir ein wenig über Ihr Nachricht ...",
+
+    "send": "Senden",
+
+    "socials": {
+        "github": {
+            "name": "GitHub",
+            "href": "https://github.com/isseabdirachid"
+        },
+        "linkedin": {
+            "name": "LinkedIn",
+            "href": "https://www.linkedin.com/in/isse-abdirachid-5019a4343/"
+        },
+        "email": {
+            "name": "E-Mail",
+            "href": "mailto:your@email.com"
+        }
     }
 }
+}
+
