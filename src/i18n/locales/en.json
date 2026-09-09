@@ -90,8 +90,57 @@
                 "message": "He transformed our ideas into a beautiful and functional interface. The whole process was smooth and professional."
             }
         ]
+    },
+    "contact": {
+        "eyebrow": "Contact",
+        "description": "Have a project in mind, a question, or just want to say hello? I'd love to hear from you.",
+        "contactHeadingLine1": "Let's discuss",
+        "contactHeadingLine2": "on something",
+        "contactHeadingAccent": "cool",
+        "contactHeadingLine3": "together",
+
+        "email": "Email",
+        "emailValue": "isseabdirachid@email.com",
+        "emailHref": "mailto:your@email.com",
+
+        "availableFor": "Available for",
+        "availability": "Freelance & collaborations",
+
+        "location": "Location",
+        "locationValue": "Berlin, Germany",
+
+        "formLabel": "Send a message",
+        "formTitle": "Contact Me",
+
+        "name": "Name",
+        "namePlaceholder": "Your name",
+
+        "emailPlaceholder": "you@example.com",
+
+        "message": "Message",
+        "messagePlaceholder": "Tell me a little about your project...",
+
+        "send": "Send Me",
+
+        "socials": {
+            "github": {
+                "name": "GitHub",
+                "href": "https://github.com/isseabdirachid"
+            },
+            "linkedin": {
+                "name": "LinkedIn",
+                "href": "https://www.linkedin.com/in/isse-abdirachid-5019a4343/"
+            },
+            "email": {
+                "name": "Email",
+                "href": "mailto:your@email.com"
+            }
+        }
     }
 }
+
+
+
 
 
 
