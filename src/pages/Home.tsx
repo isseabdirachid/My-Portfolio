@@ -6,6 +6,7 @@ import Game from "@/components/Game/Game.tsx";
 import Projects from "@/components/projects/Projects.tsx"
 import Testimonials from "@/components/testimonials/Testimonials.tsx"
 import Contact from "@/components/contact/Contact";
+import Footer from "@/components/footer/Footer";
 function Home() {
     return (
         <main >
@@ -17,6 +18,7 @@ function Home() {
                 <Projects />
                 <Testimonials />
                 <Contact />
+                <Footer />
             </div>
         </main>
     );
