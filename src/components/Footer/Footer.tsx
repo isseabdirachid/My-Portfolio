@@ -8,7 +8,7 @@ import ModeToggle from "@/components/shared/ModeToggle.tsx";
 
 const navItems = [
     { key: "home", to: "/" },
-    { key: "about", to: "/AboutMe.tsx" },
+    { key: "about", to: "/About" },
     { key: "portfolio", to: "/portfolio" },
     { key: "blog", to: "/blog" },
     { key: "contact", to: "/contact" },
