@@ -1,15 +1,13 @@
-
+import AboutMe from "@/components/About/AboutMe.tsx";
 import Footer from "@/components/Footer/Footer";
 
-function Blog() {
+function About() {
     return (
         <main>
-            <h1>About</h1>
+             <AboutMe />
             <Footer />
-
-
         </main>
     );
 }
 
-export default Blog;
+export default About;
