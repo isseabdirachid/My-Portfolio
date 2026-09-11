@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { useTranslation } from "react-i18next";
 import { BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import CVDialog from "@/components/shared/CVDialog.tsx";
 import ShinyText from "@/components/animations/ShinyText";
+import { useTranslation, Trans } from "react-i18next";
 
 function AboutContent() {
     const [cvOpen, setCvOpen] = useState(false);
@@ -30,7 +30,19 @@ function AboutContent() {
             <div className="mx-auto mt-2 h-1 w-32 rounded-full bg-primary-custom lg:mx-0 " />
 
             <p className="mt-5 w-full max-w-2xl px-0 text-left text-md leading-7 text-secondary-custom/70 md:mx-auto md:ml-0 md:max-w-none md:text-base sm:px-6 sm:text-lg lg:mx-0 lg:max-w-2xl lg:px-0">
-                {t("about.description")}
+                <Trans
+                    i18nKey="about.description"
+                    components={{
+                        company: (
+                            <a
+                                href="https://buero-digitale.de/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-primary hover:underline transition-colors"
+                            />
+                        ),
+                    }}
+                />
             </p>
 
             <Button
