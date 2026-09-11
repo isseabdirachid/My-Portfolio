@@ -8,7 +8,7 @@ import ModeToggle from "@/components/shared/ModeToggle.tsx";
 
 const navItems = [
     { key: "home", to: "/" },
-    { key: "about", to: "/About" },
+    { key: "about", to: "/AboutMe.tsx" },
     { key: "portfolio", to: "/portfolio" },
     { key: "blog", to: "/blog" },
     { key: "contact", to: "/contact" },
@@ -39,7 +39,13 @@ function Footer() {
     const { t } = useTranslation();
 
     return (
-        <footer className="relative isolate w-full min-w-0 max-w-[100vw] overflow-x-clip overflow-y-hidden border-t border-slate-200/70 bg-slate-100 text-slate-900 dark:border-white/10 dark:bg-slate-950/80 dark:text-white dark:backdrop-blur-sm">
+        <footer className="relative isolate w-full min-w-0 overflow-x-clip overflow-y-hidden border-t border-slate-200/70 bg-slate-100 text-slate-900 dark:border-white/10 dark:bg-slate-950/80 dark:text-white dark:backdrop-blur-sm">
+
+            {/* Top Orange Line */}
+            <div
+                aria-hidden="true"
+                className="pointer-events-none absolute left-1/2 top-0 h-[2px] w-[72%] -translate-x-1/2 bg-gradient-to-r from-transparent via-primary-custom/70 to-transparent"
+            />
 
             {/* Subtle orange glow */}
             <div
@@ -121,7 +127,6 @@ function Footer() {
                 <div className="py-6 text-center">
                     <p className="text-xs text-slate-500 dark:text-slate-400 sm:text-sm">
                         © 2026 Isse Abdirachid · All Rights Reserved
-
                     </p>
                 </div>
             </div>
@@ -131,7 +136,7 @@ function Footer() {
                 aria-hidden="true"
                 className="w-full min-w-0 max-w-full overflow-hidden px-0"
             >
-                <h2 className="m-0 w-full max-w-full text-center text-[clamp(2.7rem,13vw,14rem)] font-black leading-[0.75] tracking-[-0.065em] text-primary-custom select-none mb-2  mt-24">
+                <h2 className="m-0 mb-2 mt-24 w-full max-w-full select-none text-center text-[clamp(2.7rem,13vw,14rem)] font-black leading-[0.75] tracking-[-0.065em] text-primary-custom">
                     Isse Abdirachid
                 </h2>
             </div>

@@ -8,7 +8,7 @@ import LanguageSwitcher from "@/components/shared/LanguageSwitcher.tsx";
 
 const navItems = [
     { label: "Home", to: "/" },
-    { label: "About", to: "/about" },
+    { label: "AboutMe", to: "/about" },
     { label: "Portfolio", to: "/portfolio" },
     { label: "Blog", to: "/blog" },
     { label: "Contact", to: "/contact" },

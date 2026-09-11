@@ -46,6 +46,7 @@
 	--color-primary: var(--primary);
 	--color-popover-foreground: var(--popover-foreground);
 	--color-popover: var(--popover);
+	--color-popover: var(--popover);
 	--color-card-foreground: var(--card-foreground);
 	--color-card: var(--card);
 	--color-foreground: var(--foreground);
@@ -167,10 +168,12 @@
 
 	html {
 		@apply font-sans;
+		overflow-x: clip;
 	}
 
 	body {
 		@apply bg-background text-foreground;
 		font-family: "Poppins", sans-serif;
+		overflow-x: clip;
 	}
 }
