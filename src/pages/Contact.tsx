@@ -1,11 +1,11 @@
-import ContactForm from "@/components/shared/ContactForm.tsx";
-
+import ContactSection from "@/components/contact/Contact";
+import Footer from "@/components/Footer/Footer";
 function Contact() {
     return (
         <main>
-            <h1>Let's work together</h1>
 
-            <ContactForm />
+            <ContactSection />
+            <Footer />
         </main>
     );
 }
