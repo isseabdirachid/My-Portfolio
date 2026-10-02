@@ -26,16 +26,11 @@
     },
     "about": {
         "title": "Über mich",
-
         "descriptionBefore": "Ich bin angehender Software Engineer und absolviere eine duale, IHK-anerkannte Ausbildung zum Fachinformatiker für Anwendungsentwicklung bei ",
         "company": "Buero digitale services UG",
         "descriptionAfter": ". Ich entwickle gerne moderne Websites und Anwendungen und lege dabei großen Wert auf sauberen Code, gutes Design und eine intuitive User Experience. Mein Ziel ist es, meine Kenntnisse im Web- und Mobile-Development kontinuierlich zu erweitern und langfristig Full-Stack Developer zu werden. Durch meine Ausbildung und eigene Projekte sammle ich praktische Erfahrungen, lerne neue Technologien kennen und setze Ideen in funktionale Anwendungen um. Für mich bedeutet Development, Probleme zu lösen, Mehrwert zu schaffen und mich kontinuierlich weiterzuentwickeln.",
-        "resume": "Firma ansehen"
-
-        "description": "Ich bin angehender Software Engineer und absolviere bei <company>buero digitale services UG</company> eine duale, IHK-anerkannte Ausbildung zum Fachinformatiker für Anwendungsentwicklung. Ich entwickle gerne moderne Websites und Anwendungen und lege dabei großen Wert auf sauberen Code, gutes Design und eine intuitive User Experience. Mein Ziel ist es, meine Kenntnisse im Web- und Mobile-Development kontinuierlich zu erweitern und langfristig Full-Stack Developer zu werden. Durch meine Ausbildung bei <company>buero digitale services UG</company> und eigene Projekte sammle ich praktische Erfahrungen, lerne neue Technologien kennen und setze Ideen in funktionale Anwendungen um. Für mich bedeutet Development, Probleme zu lösen, Mehrwert zu schaffen und mich kontinuierlich weiterzuentwickeln.",
-
-        "resume": "CV Ansehen"
-
+        "resume": "Firma ansehen",
+        "description": "Ich bin angehender Software Engineer und absolviere bei <company>buero digitale services UG</company> eine duale, IHK-anerkannte Ausbildung zum Fachinformatiker für Anwendungsentwicklung. Ich entwickle gerne moderne Websites und Anwendungen und lege dabei großen Wert auf sauberen Code, gutes Design und eine intuitive User Experience. Mein Ziel ist es, meine Kenntnisse im Web- und Mobile-Development kontinuierlich zu erweitern und langfristig Full-Stack Developer zu werden. Durch meine Ausbildung bei <company>buero digitale services UG</company> und eigene Projekte sammle ich praktische Erfahrungen, lerne neue Technologien kennen und setze Ideen in funktionale Anwendungen um. Für mich bedeutet Development, Probleme zu lösen, Mehrwert zu schaffen und mich kontinuierlich weiterzuentwickeln."
     },
     "stack": {
         "title": "Mein Stack",
@@ -95,51 +90,42 @@
                 "message": "Er hat unsere Ideen in eine schöne und funktionale Benutzeroberfläche verwandelt. Der gesamte Prozess war reibungslos und professionell."
             }
         ]
-    },"contact": {
-    "eyebrow": "Kontakt",
-    "description": "Haben Sie ein Projekt, eine Frage oder möchten Sie einfach Hallo sagen? Ich freue mich, von Ihnen zu hören.",
-    "contactHeadingLine1": "Lassen Sie uns",
-    "contactHeadingLine2": "über etwas",
-    "contactHeadingAccent": "Cooles",
-    "contactHeadingLine3": "sprechen",
-
-    "email": "E-Mail",
-    "emailValue": "isseabdirachid@email.com",
-    "emailHref": "mailto:your@email.com",
-
-    "availableFor": "Verfügbar für",
-    "availability": "Freelance & Zusammenarbeit",
-
-    "location": "Standort",
-    "locationValue": "Deutschland",
-
-    "formLabel": "Nachricht senden",
-    "formTitle": "Kontaktieren Sie mich",
-
-    "name": "Name",
-    "namePlaceholder": "Ihr Name",
-
-    "emailPlaceholder": "sie@beispiel.de",
-
-    "message": "Nachricht",
-    "messagePlaceholder": "Erzählen Sie mir ein wenig über Ihr Nachricht ...",
-
-    "send": "Senden",
-
-    "socials": {
-        "github": {
-            "name": "GitHub",
-            "href": "https://github.com/isseabdirachid"
-        },
-        "linkedin": {
-            "name": "LinkedIn",
-            "href": "https://www.linkedin.com/in/isse-abdirachid-5019a4343/"
-        },
-        "email": {
-            "name": "E-Mail",
-            "href": "mailto:your@email.com"
+    },
+    "contact": {
+        "eyebrow": "Kontakt",
+        "description": "Haben Sie ein Projekt, eine Frage oder möchten Sie einfach Hallo sagen? Ich freue mich, von Ihnen zu hören.",
+        "contactHeadingLine1": "Lassen Sie uns",
+        "contactHeadingLine2": "über etwas",
+        "contactHeadingAccent": "Cooles",
+        "contactHeadingLine3": "sprechen",
+        "email": "E-Mail",
+        "emailValue": "isseabdirachid@email.com",
+        "emailHref": "mailto:your@email.com",
+        "availableFor": "Verfügbar für",
+        "availability": "Freelance & Zusammenarbeit",
+        "location": "Standort",
+        "locationValue": "Deutschland",
+        "formLabel": "Nachricht senden",
+        "formTitle": "Kontaktieren Sie mich",
+        "name": "Name",
+        "namePlaceholder": "Ihr Name",
+        "emailPlaceholder": "sie@beispiel.de",
+        "message": "Nachricht",
+        "messagePlaceholder": "Erzählen Sie mir ein wenig über Ihr Nachricht ...",
+        "send": "Senden",
+        "socials": {
+            "github": {
+                "name": "GitHub",
+                "href": "https://github.com/isseabdirachid"
+            },
+            "linkedin": {
+                "name": "LinkedIn",
+                "href": "https://www.linkedin.com/in/isse-abdirachid-5019a4343/"
+            },
+            "email": {
+                "name": "E-Mail",
+                "href": "mailto:your@email.com"
+            }
         }
     }
 }
-}
-

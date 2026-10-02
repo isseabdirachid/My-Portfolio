@@ -16,7 +16,6 @@
         "connect": "Let's Connect",
         "viewWork": "View My Work"
     },
-
     "cv": {
         "title": "CV Request",
         "description": "My CV is shared privately. Please email me to request a copy.",
@@ -27,22 +26,17 @@
     },
     "about": {
         "title": "About Me",
-
         "descriptionBefore": "I am an aspiring Software Engineer currently completing a dual, IHK-recognized vocational training program as an IT Specialist for Application Development at ",
         "company": "Buero digitale services UG",
         "descriptionAfter": ". I enjoy developing modern websites and applications, with a strong focus on clean code, good design, and an intuitive user experience. My goal is to continuously expand my knowledge in web and mobile development and eventually become a Full-Stack Developer. Through my vocational training and personal projects, I gain practical experience, learn new technologies, and turn ideas into functional applications. For me, development means solving problems, creating value, and continuously improving myself and my skills.",
-        "resume": "View Company"
-
-        "description": "I am an aspiring Software Engineer and currently completing a dual, IHK-recognized vocational training program as a Fachinformatiker für Anwendungsentwicklung at <company>buero digitale services UG</company>. I enjoy building modern websites and applications and place great importance on clean code, good design, and an intuitive user experience. My goal is to continuously expand my knowledge in web and mobile development and eventually become a Full-Stack Developer. Through my vocational training at <company>buero digitale services UG</company> and personal projects, I gain practical experience, learn new technologies, and turn ideas into functional applications. For me, development means solving problems, creating value, and continuously improving myself.",
-
-        "resume": "View Resume"
-
+        "resume": "View Company",
+        "description": "I am an aspiring Software Engineer and currently completing a dual, IHK-recognized vocational training program as a Fachinformatiker für Anwendungsentwicklung at <company>buero digitale services UG</company>. I enjoy building modern websites and applications and place great importance on clean code, good design, and an intuitive user experience. My goal is to continuously expand my knowledge in web and mobile development and eventually become a Full-Stack Developer. Through my vocational training at <company>buero digitale services UG</company> and personal projects, I gain practical experience, learn new technologies, and turn ideas into functional applications. For me, development means solving problems, creating value, and continuously improving myself."
     },
     "stack": {
         "title": "My Stack",
         "description": "Technologies I use to build modern digital products.",
-        "masterProgress": "Master ",
-        "learningNow": "Learning ",
+        "masterProgress": "Master",
+        "learningNow": "Learning",
         "nextUp": "Next Up"
     },
     "game": {
@@ -63,7 +57,6 @@
         "title": "Projects",
         "description": "Some of the projects I’ve built with skill, creativity, modern technology, and responsive design."
     },
-
     "testimonials": {
         "eyebrow": "Testimonials",
         "title": "What I Stand For",
@@ -105,30 +98,21 @@
         "contactHeadingLine2": "on something",
         "contactHeadingAccent": "cool",
         "contactHeadingLine3": "together",
-
         "email": "Email",
         "emailValue": "isseabdirachid@email.com",
         "emailHref": "mailto:your@email.com",
-
         "availableFor": "Available for",
         "availability": "Freelance & collaborations",
-
         "location": "Location",
         "locationValue": "Germany",
-
         "formLabel": "Send a message",
         "formTitle": "Contact Me",
-
         "name": "Name",
         "namePlaceholder": "Your name",
-
         "emailPlaceholder": "you@example.com",
-
         "message": "Message",
         "messagePlaceholder": "Tell me a little about your project...",
-
         "send": "Send Me",
-
         "socials": {
             "github": {
                 "name": "GitHub",
@@ -145,12 +129,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
