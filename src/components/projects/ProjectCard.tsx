@@ -10,11 +10,11 @@ function ProjectCard({ project }: ProjectCardProps) {
     const { t } = useTranslation();
 
     return (
-        <article className="group overflow-hidden rounded-2xl">
+        <article className="group overflow-hidden rounded-2xl bg-white dark:bg-slate-900">
             <img
                 src={project.image}
                 alt={t(project.title)}
-                className="h-full w-full object-cover"
+                className="h-64 w-full object-cover"
             />
 
             <div className="p-5">
