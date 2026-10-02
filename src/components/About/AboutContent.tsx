@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import CVDialog from "@/components/shared/CVDialog.tsx";
 import ShinyText from "@/components/animations/ShinyText";
@@ -39,7 +38,6 @@ function AboutContent() {
                 className="mt-8 h-10 gap-2 bg-primary-custom text-sm text-white hover:bg-primary-custom/90"
             >
                 {t("about.resume")}
-                <BookOpen className="size-4" />
             </Button>
 
             <CVDialog
