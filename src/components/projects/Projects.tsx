@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-import MagicBento from "@/components/shared/MagicBento"
+import MagicBento from "@/components/shared/MagicBento";
 import { projectsData } from "./projectsData";
 import ShinyText from "@/components/animations/ShinyText.tsx";
 
