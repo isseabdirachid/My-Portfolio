@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { Trans, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { ExternalLink } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -44,20 +44,6 @@ function AboutContent() {
                 </a>
 
                 {t("about.descriptionAfter")}
-
-                <Trans
-                    i18nKey="about.description"
-                    components={{
-                        company: (
-                            <a
-                                href="https://buero-digitale.de/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-primary transition-colors hover:underline"
-                            />
-                        ),
-                    }}
-                />
             </p>
 
             <Button
