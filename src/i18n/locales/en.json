@@ -65,28 +65,32 @@
         "goTo": "Go to testimonial",
         "items": [
             {
-                "name": "John Doe",
-                "role": "CEO",
-                "company": "Tech Company",
-                "message": "Working with this developer was a great experience. The attention to detail, communication, and quality of work were excellent."
+                "name": "Team",
+                "role": "Buero digitale Services UG",
+                "company": "",
+                "message": "Isse has already impressed us in his first year of training as an IT Specialist for Application Development with his reliability, commitment, and ability to learn quickly. He takes on projects independently, develops creative solutions, and always works responsibly. We especially appreciate his initiative, friendly personality, and enthusiasm for IT. We are happy to have him as part of our team!",
+                "rating" : 5
             },
             {
-                "name": "Sarah Smith",
-                "role": "Product Manager",
-                "company": "Creative Studio",
-                "message": "A very professional developer who understood exactly what we needed. The final result was clean, modern, and delivered on time."
+                "name": "Mrs Schneider",
+                "role": "Neighbor",
+                "company": "",
+                "message": "He is a very kind and helpful young man. The world has become so digital these days that, honestly, I sometimes don’t understand everything. Whenever I have trouble with my phone or computer, he always takes the time to help me and explains things in a way that I can easily understand. I’m very grateful to him.",
+                "rating" : 3
             },
             {
-                "name": "Alex Johnson",
-                "role": "Founder",
-                "company": "Startup",
-                "message": "Great communication and attention to detail throughout the project. I would definitely recommend working with him."
+                "name": "Ali hassa",
+                "role": "Senior Full-Stack Developer",
+                "company": "",
+                "message": "He is very hardworking and enjoys learning new things. I especially noticed that he learns programming quickly and always tries to understand new things. He is helpful and easy to work with. When something is difficult, he simply asks me for help instead of giving up.\n",
+                "rating" : 4
             },
             {
-                "name": "Michael Brown",
-                "role": "Designer",
-                "company": "Digital Agency",
-                "message": "He transformed our ideas into a beautiful and functional interface. The whole process was smooth and professional."
+                "name": "Mrs Birgit R.",
+                "role": "Social & Community Work",
+                "company": "",
+                "message": "He is a very kind and respectful person. He is always willing to help others, especially with digital matters and social activities. He has helped us with many things related to technology and our community work. We are also happy to have him as part of our community, and he is always ready to lend a hand whenever help is needed.\n",
+                "rating" : 5
             }
         ]
     },

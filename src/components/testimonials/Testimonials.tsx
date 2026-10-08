@@ -5,7 +5,8 @@ import TestimonialCard, {
 } from "./TestimonialCard";
 import "./testimonials.css";
 import ShinyText from "@/components/animations/ShinyText";
-import Profile5 from "@/assets/images/profile-pic (5).png";
+import FrauBild from "@/assets/images/FrauBILD.jpg";
+
 
 const AUTO_SLIDE_TIME = 5000;
 
@@ -18,7 +19,16 @@ const Testimonials: React.FC = () => {
 
     const testimonialsWithImages = testimonials.map((testimonial, index) => ({
         ...testimonial,
-        image: index === 0 ? Profile5 : testimonial.image,
+        image:
+            index === 0
+                ? "-"
+                : index === 1
+                    ? FrauBild
+                    : index === 2
+                        ? "-"
+                        : index === 3
+                            ? "-"
+                            : testimonial.image,
     }));
 
     const [currentIndex, setCurrentIndex] = useState(0);
