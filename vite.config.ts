@@ -10,7 +10,7 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            // 2. Halkan ku xir @ inuu u taagan yahay src/
+            // 2. hier Verbinden sr inuu u taagan yahay src/
             '@': path.resolve(__dirname, './src'),
         },
     },

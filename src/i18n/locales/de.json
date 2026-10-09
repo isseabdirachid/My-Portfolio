@@ -26,8 +26,11 @@
     },
     "about": {
         "title": "Über mich",
-        "description": "Ich bin angehender Software Engineer und absolviere eine duale, IHK-anerkannte Ausbildung zum Fachinformatiker für Anwendungsentwicklung. Ich entwickle gerne moderne Websites und Anwendungen und lege dabei großen Wert auf sauberen Code, gutes Design und eine intuitive User Experience. Mein Ziel ist es, meine Kenntnisse im Web und Mobile-Development kontinuierlich zu erweitern und langfristig Full-Stack Developer zu werden. Durch meine Ausbildung und eigene Projekte sammle ich praktische Erfahrungen, lerne neue Technologien und setze Ideen in funktionale Anwendungen um. Für mich bedeutet Development, Probleme zu lösen, Mehrwert zu schaffen und mich kontinuierlich weiterzuentwickeln.",
-        "resume": "CV Ansehen"
+        "descriptionBefore": "Ich bin angehender Software Engineer und absolviere eine duale, IHK-anerkannte Ausbildung zum Fachinformatiker für Anwendungsentwicklung bei ",
+        "company": "Buero digitale services UG",
+        "descriptionAfter": ". Ich entwickle gerne moderne Websites und Anwendungen und lege dabei großen Wert auf sauberen Code, gutes Design und eine intuitive User Experience. Mein Ziel ist es, meine Kenntnisse im Web- und Mobile-Development kontinuierlich zu erweitern und langfristig Full-Stack Developer zu werden. Durch meine Ausbildung und eigene Projekte sammle ich praktische Erfahrungen, lerne neue Technologien kennen und setze Ideen in funktionale Anwendungen um. Für mich bedeutet Development, Probleme zu lösen, Mehrwert zu schaffen und mich kontinuierlich weiterzuentwickeln.",
+        "resume": "Firma ansehen"
+
     },
     "stack": {
         "title": "Mein Stack",
@@ -63,75 +66,72 @@
         "goTo": "Zur Referenz",
         "items": [
             {
-                "name": "John Doe",
-                "role": "CEO",
-                "company": "Tech Company",
-                "message": "Die Zusammenarbeit mit diesem Entwickler war eine großartige Erfahrung. Die Liebe zum Detail, die Kommunikation und die Qualität der Arbeit waren hervorragend."
+
+                "name": "Team",
+                "role": "Buero digital Services UG",
+                "company": "",
+                "message": "Isse überzeugt uns bereits im ersten Ausbildungsjahr zum Fachinformatiker für Anwendungsentwicklung durch seine Zuverlässigkeit, sein Engagement und seine schnelle Auffassungsgabe. Er übernimmt eigenständig Projekte, entwickelt kreative Lösungen und arbeitet stets verantwortungsbewusst. Besonders schätzen wir seine Eigeninitiative, seine freundliche Art und seine Begeisterung für die IT. Wir freuen uns, ihn in unserem Team zu haben!  ",
+                "rating" : 5
+
             },
             {
-                "name": "Sarah Smith",
-                "role": "Produktmanagerin",
-                "company": "Creative Studio",
-                "message": "Ein sehr professioneller Entwickler, der genau verstanden hat, was wir brauchen. Das Ergebnis war sauber, modern und wurde pünktlich geliefert."
+                "name": "Frau Schneider",
+                "role": "Nachbarin",
+                "company": "",
+                "message": "Er ist ein sehr freundlicher und hilfsbereiter junger Mann. Die Welt ist heutzutage so digital geworden, dass ich manchmal ehrlich gesagt nicht alles verstehe. Wenn ich etwas mit meinem Handy oder Computer nicht verstehe, nimmt er sich immer die Zeit für mich und erklärt es mir so, dass ich es gut verstehen kann. Dafür bin ich ihm sehr dankbar.\n",
+                "rating" : 4
             },
             {
-                "name": "Alex Johnson",
-                "role": "Gründer",
-                "company": "Startup",
-                "message": "Eine großartige Kommunikation und viel Liebe zum Detail während des gesamten Projekts. Ich würde die Zusammenarbeit definitiv weiterempfehlen."
+                "name": "Zara Max",
+                "role": "Senior Full-Stack Developer",
+                "company": "",
+                "message": "Ich habe mit Isse an einem gemeinnützigen Projekt gearbeitet, bei dem wir ein School-Management-System für eine Schule in Somalia entwickelt haben, die sich ein solches System nicht leisten konnte. Isse war für die Frontend-Entwicklung verantwortlich und hat einen wertvollen Beitrag zum Projekt geleistet. Die Zusammenarbeit war angenehm und produktiv. Ich hoffe, dass wir auch in Zukunft wieder gemeinsam an gemeinnützigen Projekten arbeiten können." ,
+                "rating" : 5
             },
             {
-                "name": "Michael Brown",
-                "role": "Designer",
-                "company": "Digital Agency",
-                "message": "Er hat unsere Ideen in eine schöne und funktionale Benutzeroberfläche verwandelt. Der gesamte Prozess war reibungslos und professionell."
+                "name": "BIRGIT RADECK",
+                "role": "S.T.A.R. – Integrationsprojekt für Migrantinnen  ",
+                "company": "",
+                "message": "Isse engagiert sich mit viel Einsatz ehrenamtlich bei der Migrantenselbstorganisation „Immigrant Networks“.\n\nEr ist Verantwortlicher für die Homepage und unterstützt auch tatkräftig bei Veranstaltungen und gemeinsamen Festen. Isse ist zuverlässig, arbeitet schnell und unkompliziert und ist immer bereit, mit anzupacken.\n\nMit seiner offenen und engagierten Art ist er eine wichtige Unterstützung für den Verein. Er ist eine Bereicherung für uns alle  und für die Stadtgesellschaft.  ",
+                "rating" : 5
             }
         ]
-    },"contact": {
-    "eyebrow": "Kontakt",
-    "description": "Haben Sie ein Projekt, eine Frage oder möchten Sie einfach Hallo sagen? Ich freue mich, von Ihnen zu hören.",
-    "contactHeadingLine1": "Lassen Sie uns",
-    "contactHeadingLine2": "über etwas",
-    "contactHeadingAccent": "Cooles",
-    "contactHeadingLine3": "sprechen",
-
-    "email": "E-Mail",
-    "emailValue": "isseabdirachid@email.com",
-    "emailHref": "mailto:your@email.com",
-
-    "availableFor": "Verfügbar für",
-    "availability": "Freelance & Zusammenarbeit",
-
-    "location": "Standort",
-    "locationValue": "Berlin, Deutschland",
-
-    "formLabel": "Nachricht senden",
-    "formTitle": "Kontaktieren Sie mich",
-
-    "name": "Name",
-    "namePlaceholder": "Ihr Name",
-
-    "emailPlaceholder": "sie@beispiel.de",
-
-    "message": "Nachricht",
-    "messagePlaceholder": "Erzählen Sie mir ein wenig über Ihr Nachricht ...",
-
-    "send": "Senden",
-
-    "socials": {
-        "github": {
-            "name": "GitHub",
-            "href": "https://github.com/isseabdirachid"
-        },
-        "linkedin": {
-            "name": "LinkedIn",
-            "href": "https://www.linkedin.com/in/isse-abdirachid-5019a4343/"
-        },
-        "email": {
-            "name": "E-Mail",
-            "href": "mailto:your@email.com"
+    },
+    "contact": {
+        "eyebrow": "Kontakt",
+        "description": "Haben Sie ein Projekt, eine Frage oder möchten Sie einfach Hallo sagen? Ich freue mich, von Ihnen zu hören.",
+        "contactHeadingLine1": "Lassen Sie uns",
+        "contactHeadingLine2": "über etwas",
+        "contactHeadingAccent": "Cooles",
+        "contactHeadingLine3": "sprechen",
+        "email": "E-Mail",
+        "emailValue": "isseabdirachid@email.com",
+        "emailHref": "mailto:your@email.com",
+        "availableFor": "Verfügbar für",
+        "availability": "Freelance & Zusammenarbeit",
+        "location": "Standort",
+        "locationValue": "Deutschland",
+        "formLabel": "Nachricht senden",
+        "formTitle": "Kontaktieren Sie mich",
+        "name": "Name",
+        "namePlaceholder": "Ihr Name",
+        "emailPlaceholder": "sie@beispiel.de",
+        "message": "Nachricht",
+        "messagePlaceholder": "Erzählen Sie mir ein wenig über Ihr Nachricht ...",
+        "send": "Senden",
+        "socials": {
+            "github": {
+                "name": "GitHub",
+                "href": "https://github.com/isseabdirachid"
+            },
+            "linkedin": {
+                "name": "LinkedIn",
+                "href": "https://www.linkedin.com/in/isse-abdirachid-5019a4343/"
+            },
+            "email": {
+                "name": "E-Mail",
+                "href": "mailto:your@email.com"
+            }
         }
     }
 }
-}
-

@@ -16,7 +16,6 @@
         "connect": "Let's Connect",
         "viewWork": "View My Work"
     },
-
     "cv": {
         "title": "CV Request",
         "description": "My CV is shared privately. Please email me to request a copy.",
@@ -27,15 +26,16 @@
     },
     "about": {
         "title": "About Me",
-        "description": "I am an aspiring Software Engineer and currently completing a dual, IHK-recognized vocational training program as a Fachinformatiker für Anwendungsentwicklung. I enjoy building modern websites and applications and place great importance on clean code, good design, and an intuitive user experience. My goal is to continuously expand my knowledge in web and mobile development and eventually become a Full-Stack Developer. Through my Ausbildung and personal projects, I gain practical experience, learn new technologies, and turn ideas into functional applications. For me, development means solving problems, creating value, and continuously improving myself.",
-        "resume": "View Resume"
-    },
-
+        "descriptionBefore": "I am an aspiring Software Engineer currently completing a dual, IHK-recognized vocational training program as an IT Specialist for Application Development at ",
+        "company": "Buero digitale services UG",
+        "descriptionAfter": ". I enjoy developing modern websites and applications, with a strong focus on clean code, good design, and an intuitive user experience. My goal is to continuously expand my knowledge in web and mobile development and eventually become a Full-Stack Developer. Through my vocational training and personal projects, I gain practical experience, learn new technologies, and turn ideas into functional applications. For me, development means solving problems, creating value, and continuously improving myself and my skills.",
+        "resume": "View Company"
+         },
     "stack": {
         "title": "My Stack",
         "description": "Technologies I use to build modern digital products.",
-        "masterProgress": "Master ",
-        "learningNow": "Learning ",
+        "masterProgress": "Master",
+        "learningNow": "Learning",
         "nextUp": "Next Up"
     },
     "game": {
@@ -56,7 +56,6 @@
         "title": "Projects",
         "description": "Some of the projects I’ve built with skill, creativity, modern technology, and responsive design."
     },
-
     "testimonials": {
         "eyebrow": "Testimonials",
         "title": "What I Stand For",
@@ -66,28 +65,32 @@
         "goTo": "Go to testimonial",
         "items": [
             {
-                "name": "John Doe",
-                "role": "CEO",
-                "company": "Tech Company",
-                "message": "Working with this developer was a great experience. The attention to detail, communication, and quality of work were excellent."
+                "name": "Team",
+                "role": "Buero digitale Services UG",
+                "company": "",
+                "message": "Isse has already impressed us in his first year of training as an IT Specialist for Application Development with his reliability, commitment, and ability to learn quickly. He takes on projects independently, develops creative solutions, and always works responsibly. We especially appreciate his initiative, friendly personality, and enthusiasm for IT. We are happy to have him as part of our team!",
+                "rating" : 5
             },
             {
-                "name": "Sarah Smith",
-                "role": "Product Manager",
-                "company": "Creative Studio",
-                "message": "A very professional developer who understood exactly what we needed. The final result was clean, modern, and delivered on time."
+                "name": "Mrs Schneider",
+                "role": "Neighbor",
+                "company": "",
+                "message": "He is a very kind and helpful young man. The world has become so digital these days that, honestly, I sometimes don’t understand everything. Whenever I have trouble with my phone or computer, he always takes the time to help me and explains things in a way that I can easily understand. I’m very grateful to him.",
+                "rating" : 4
             },
             {
-                "name": "Alex Johnson",
-                "role": "Founder",
-                "company": "Startup",
-                "message": "Great communication and attention to detail throughout the project. I would definitely recommend working with him."
+                "name": "Ahmed Yuusuf",
+                "role": "Senior Full-Stack Developer",
+                "company": "",
+                "message": "I collaborated with Isse on a non-profit project to build a School Management System for a school in Somalia that couldn’t afford one. Isse handled the frontend development and made a valuable contribution to the project. Our collaboration was smooth and productive, and I hope we can work together again on future non-profit projects." ,
+                "rating" : 5
             },
             {
-                "name": "Michael Brown",
-                "role": "Designer",
-                "company": "Digital Agency",
-                "message": "He transformed our ideas into a beautiful and functional interface. The whole process was smooth and professional."
+                "name": "BIRGIT RADECK",
+                "role": "S.T.A.R. – Integration Project for Migrant Women\n",
+                "company": "",
+                "message": "Isse is actively involved in volunteering with the migrant self-help organization “Immigrant Networks”, where he contributes with great dedication and commitment. He is responsible for the organization’s website and also actively supports events and community celebrations. Isse is reliable, works quickly and efficiently, and is always willing to lend a helping hand whenever needed. With his friendly, open-minded, and committed attitude, he is an important source of support for the organization. He is a valuable asset to all of us and to the wider community of the city.",
+                "rating" : 5
             }
         ]
     },
@@ -98,30 +101,21 @@
         "contactHeadingLine2": "on something",
         "contactHeadingAccent": "cool",
         "contactHeadingLine3": "together",
-
         "email": "Email",
         "emailValue": "isseabdirachid@email.com",
         "emailHref": "mailto:your@email.com",
-
         "availableFor": "Available for",
         "availability": "Freelance & collaborations",
-
         "location": "Location",
-        "locationValue": "Berlin, Germany",
-
+        "locationValue": "Germany",
         "formLabel": "Send a message",
         "formTitle": "Contact Me",
-
         "name": "Name",
         "namePlaceholder": "Your name",
-
         "emailPlaceholder": "you@example.com",
-
         "message": "Message",
         "messagePlaceholder": "Tell me a little about your project...",
-
         "send": "Send Me",
-
         "socials": {
             "github": {
                 "name": "GitHub",
@@ -138,12 +132,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-

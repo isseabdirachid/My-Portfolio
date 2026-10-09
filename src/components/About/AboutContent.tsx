@@ -1,5 +1,9 @@
 import { useState } from "react";
+
 import { useTranslation } from "react-i18next";
+
+import { ExternalLink } from "lucide-react";
+ main
 import { Button } from "@/components/ui/button";
 import CVDialog from "@/components/shared/CVDialog.tsx";
 import ShinyText from "@/components/animations/ShinyText";
@@ -26,18 +30,34 @@ function AboutContent() {
                 />
             </h1>
 
-            <div className="mx-auto mt-2 h-1 w-32 rounded-full bg-primary-custom lg:mx-0 " />
+            <div className="mx-auto mt-2 h-1 w-32 rounded-full bg-primary-custom lg:mx-0" />
 
             <p className="mt-5 w-full max-w-2xl px-0 text-left text-md leading-7 text-secondary-custom/70 md:mx-auto md:ml-0 md:max-w-none md:text-base sm:px-6 sm:text-lg lg:mx-0 lg:max-w-2xl lg:px-0">
-                {t("about.description")}
+                {t("about.descriptionBefore")}
+
+                <a
+                    href="https://buero-digitale.de/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium underline transition-colors hover:text-primary-custom"
+                >
+                    {t("about.company")}
+                </a>
+
+                {t("about.descriptionAfter")}
             </p>
 
             <Button
                 type="button"
-                onClick={() => setCvOpen(true)}
+                onClick={() =>
+                    window.open("https://buero-digitale.de/", "_blank")
+                }
                 className="mt-8 h-10 gap-2 bg-primary-custom text-sm text-white hover:bg-primary-custom/90"
             >
-                {t("about.resume")}
+                {t("about.resume")}dev
+                <ExternalLink className="size-4" />
+
+ main
             </Button>
 
             <CVDialog
