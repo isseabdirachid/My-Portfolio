@@ -97,6 +97,12 @@
             }
         ]
     },
+
+    "legal": {
+        "impressum": "Impressum",
+        "privacy": "Datenschutz"
+    },
+
     "contact": {
         "eyebrow": "Kontakt",
         "description": "Haben Sie ein Projekt, eine Frage oder möchten Sie einfach Hallo sagen? Ich freue mich, von Ihnen zu hören.",
@@ -133,5 +139,21 @@
                 "href": "mailto:your@email.com"
             }
         }
+    },
+    "legal": {
+        "impressum": "Impressum",
+        "privacy": "Datenschutz",
+        "backHome": "Zurück zur Startseite",
+        "eyebrow": "Rechtliche Informationen",
+        "impressumTitle": "Impressum",
+        "impressumSubtitle": "Angaben zum Betreiber und Kontaktinformationen.",
+        "privacyTitle": "Datenschutzerklärung",
+        "privacySubtitle": "Informationen zum Schutz Ihrer personenbezogenen Daten."
     }
 }
+
+
+
+
+
+
