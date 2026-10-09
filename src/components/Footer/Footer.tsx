@@ -120,8 +120,27 @@ function Footer() {
                     <ModeToggle />
                 </div>
 
+
                 {/* DIVIDER */}
                 <div className="mx-auto mt-8 h-px w-full bg-slate-300/70 dark:bg-white/10" />
+
+                <div className="mt-8 flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
+                    <NavLink
+                        to="/Impressum"
+                        className="text-md font-semibold text-primary-custom transition-colors duration-300"
+                    >
+                        {t("legal.impressum")}
+                    </NavLink>
+
+
+                    <NavLink
+                        to="/Datenschutz"
+                        className="text-md font-semibold text-primary-custom transition-colors duration-300"
+                    >
+                        {t("legal.privacy")}
+                    </NavLink>
+
+                </div>
 
                 {/* COPYRIGHT */}
                 <div className="py-6 text-center">

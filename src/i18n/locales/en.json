@@ -94,6 +94,11 @@
             }
         ]
     },
+    "legal": {
+        "impressum": "Legal Notice",
+        "privacy": "Privacy Policy"
+    },
+
     "contact": {
         "eyebrow": "Contact",
         "description": "Have a project in mind, a question, or just want to say hello? I'd love to hear from you.",
@@ -130,5 +135,17 @@
                 "href": "mailto:your@email.com"
             }
         }
+    },
+
+    "legal": {
+        "impressum": "Legal Notice",
+        "privacy": "Privacy Policy",
+        "backHome": "Back to Home",
+        "eyebrow": "Legal Information",
+        "impressumTitle": "Legal Notice",
+        "impressumSubtitle": "Information about the website operator and contact details.",
+        "privacyTitle": "Privacy Policy",
+        "privacySubtitle": "Information about how your personal data is protected."
     }
 }
+

@@ -6,6 +6,8 @@ import Portfolio from "@/pages/Portfolio";
 import MainLayout from "@/layouts/MainLayout";
 import Background from "@/components/animations/Background";
 import About from "@/pages/About";
+import LegalNotice from "@/components/PrivacyPolicy/LegalNotice.tsx";
+import PrivacyPolicy from "@/components/PrivacyPolicy/PrivacyPolicy.tsx";
 
 function App() {
     return (
@@ -19,6 +21,8 @@ function App() {
                     <Route path="/portfolio" element={<Portfolio />} />
                     <Route path="/blog" element={<Blog />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/Impressum" element={<LegalNotice />} />
+                    <Route path="/Datenschutz" element={<PrivacyPolicy />} />
 
                 </Route>
             </Routes>
