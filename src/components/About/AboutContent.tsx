@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 import { useTranslation } from "react-i18next";
-import { ExternalLink } from "lucide-react";
-
+import { Link } from "react-router-dom";
+import {Handshake, } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import CVDialog from "@/components/shared/CVDialog.tsx";
 import ShinyText from "@/components/animations/ShinyText";
@@ -47,14 +47,27 @@ function AboutContent() {
             </p>
 
             <Button
-                type="button"
-                onClick={() =>
-                    window.open("https://buero-digitale.de/", "_blank")
-                }
-                className="mt-8 h-10 gap-2 bg-primary-custom text-sm text-white hover:bg-primary-custom/90"
+                asChild
+                className="group gap-2 bg-primary-custom p-4 text-slate-100 mt-5
+        shadow-[0_8px_20px_rgba(250,204,21,0.25)]
+        transition duration-[250ms]
+        hover:-translate-y-[3px] hover:bg-primary-custom/90
+        hover:shadow-[0_14px_32px_rgba(250,204,21,0.45)]
+        active:-translate-y-[1px]
+        focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-[3px] focus-visible:outline-yellow-400
+        motion-reduce:transition-none"
             >
-                {t("about.resume")}
-                <ExternalLink className="size-4" />
+                <Link to="/contact">
+                    {t("hero.connect")}
+
+                    <span
+                        className="flex items-center justify-center transition-transform duration-[250ms]
+                group-hover:translate-x-[3px] group-hover:-translate-y-[3px]
+                motion-reduce:transition-none"
+                    >
+            <Handshake className="size-4" />
+        </span>
+                </Link>
             </Button>
 
             <CVDialog

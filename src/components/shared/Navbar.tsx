@@ -27,7 +27,6 @@ function Navbar() {
         <>
             <nav className="sticky top-0 z-50 w-full px-4 pt-4">
                 <div className="mx-auto flex h-16 max-w-6xl items-center justify-between rounded-2xl border border-secondary-custom/10 bg-background-dark/90 px-5 shadow-lg backdrop-blur-md">
-
                     {/* Logo */}
                     <NavLink
                         to="/"
@@ -62,15 +61,12 @@ function Navbar() {
 
                     {/* Right Side */}
                     <div className="flex items-center gap-2">
-
                         {/* Dark / Light Mode */}
                         <ModeToggle />
 
                         {/* Mobile Menu */}
                         <div className="md:hidden">
-                            <MobileNav
-                                onDownloadCV={() => setCvOpen(true)}
-                            />
+                            <MobileNav onDownloadCV={() => setCvOpen(true)} />
                         </div>
 
                         {/* Language - Desktop */}
@@ -82,9 +78,11 @@ function Navbar() {
                         <Button
                             type="button"
                             onClick={() => setCvOpen(true)}
-                            className="hidden gap-2 bg-primary-custom text-white hover:bg-primary-custom/90 sm:flex"
+                            className="group hidden gap-2 bg-primary-custom text-white shadow-[0_8px_20px_rgba(250,204,21,0.25)] transition duration-[250ms] hover:-translate-y-[3px] hover:bg-primary-custom/90 hover:shadow-[0_14px_32px_rgba(250,204,21,0.45)] active:-translate-y-[1px] motion-reduce:transition-none sm:flex"
                         >
-                            <Download className="size-4" />
+                            <span className="flex items-center justify-center transition-transform duration-[250ms] group-hover:translate-y-[2px] motion-reduce:transition-none">
+                                <Download className="size-4" />
+                            </span>
                             {t("navbar.downloadCv")}
                         </Button>
                     </div>
@@ -92,10 +90,7 @@ function Navbar() {
             </nav>
 
             {/* CV Dialog */}
-            <CVDialog
-                open={cvOpen}
-                onOpenChange={setCvOpen}
-            />
+            <CVDialog open={cvOpen} onOpenChange={setCvOpen} />
         </>
     );
 }
