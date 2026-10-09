@@ -1,8 +1,13 @@
 import { useState } from "react";
 
 import { useTranslation } from "react-i18next";
+
 import { Link } from "react-router-dom";
 import {Handshake, } from "lucide-react";
+
+
+import { ExternalLink } from "lucide-react";
+ 
 import { Button } from "@/components/ui/button";
 import CVDialog from "@/components/shared/CVDialog.tsx";
 import ShinyText from "@/components/animations/ShinyText";
@@ -57,6 +62,7 @@ function AboutContent() {
         focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-[3px] focus-visible:outline-yellow-400
         motion-reduce:transition-none"
             >
+
                 <Link to="/contact">
                     {t("hero.connect")}
 
@@ -68,6 +74,12 @@ function AboutContent() {
             <Handshake className="size-4" />
         </span>
                 </Link>
+
+                {t("about.resume")}dev
+                <ExternalLink className="size-4" />
+
+ main
+
             </Button>
 
             <CVDialog
