@@ -70,7 +70,7 @@
                 "name": "Team",
                 "role": "Buero digital Services UG",
                 "company": "",
-                "message": "Isse überzeugt uns bereits im ersten Ausbildungsjahr zum Fachinformatiker für Anwendungsentwicklung durch seine Zuverlässigkeit, sein Engagement und seine schnelle Auffassungsgabe. Er übernimmt eigenständig Projekte, entwickelt kreative Lösungen und arbeitet stets verantwortungsbewusst. Besonders schätzen wir seine Eigeninitiative, seine freundliche Art und seine Begeisterung für die IT. Wir freuen uns, ihn in unserem Team zu haben!,  ",
+                "message": "Isse überzeugt uns bereits im ersten Ausbildungsjahr zum Fachinformatiker für Anwendungsentwicklung durch seine Zuverlässigkeit, sein Engagement und seine schnelle Auffassungsgabe. Er übernimmt eigenständig Projekte, entwickelt kreative Lösungen und arbeitet stets verantwortungsbewusst. Besonders schätzen wir seine Eigeninitiative, seine freundliche Art und seine Begeisterung für die IT. Wir freuen uns, ihn in unserem Team zu haben!  ",
                 "rating" : 5
 
             },
@@ -79,20 +79,20 @@
                 "role": "Nachbarin",
                 "company": "",
                 "message": "Er ist ein sehr freundlicher und hilfsbereiter junger Mann. Die Welt ist heutzutage so digital geworden, dass ich manchmal ehrlich gesagt nicht alles verstehe. Wenn ich etwas mit meinem Handy oder Computer nicht verstehe, nimmt er sich immer die Zeit für mich und erklärt es mir so, dass ich es gut verstehen kann. Dafür bin ich ihm sehr dankbar.\n",
-                "rating" : 3
-            },
-            {
-                "name": "Ali hassa ",
-                "role": "Senior Full-Stack Developer",
-                "company": "",
-                "message": "Er ist sehr engagiert und lernt gerne neue Dinge. Besonders aufgefallen ist mir, dass er Programmierung schnell versteht und immer versucht, neue Sachen zu lernen. Er ist hilfsbereit und angenehm in der Zusammenarbeit. Wenn etwas schwierig ist, fragt er einfach nach Hilfe, anstatt aufzugeben.\n",
                 "rating" : 4
             },
             {
-                "name": "Frau Birgit R.",
-                "role": "Soziale und Gemeinwesenarbeit",
+                "name": "Zara Max",
+                "role": "Senior Full-Stack Developer",
                 "company": "",
-                "message": "Er ist ein sehr guter und respektvoller Mensch. Er ist immer bereit, anderen zu helfen, besonders im digitalen Bereich und bei sozialen Themen. Er hat uns bei vielen Dingen rund um Technik und unsere sozialen Aktivitäten unterstützt. Wir freuen uns auch, dass er Teil unserer Gemeinschaft ist und immer bereit ist, mitzuhelfen, wenn Unterstützung gebraucht wird.\n",
+                "message": "Ich habe mit Isse an einem gemeinnützigen Projekt gearbeitet, bei dem wir ein School-Management-System für eine Schule in Somalia entwickelt haben, die sich ein solches System nicht leisten konnte. Isse war für die Frontend-Entwicklung verantwortlich und hat einen wertvollen Beitrag zum Projekt geleistet. Die Zusammenarbeit war angenehm und produktiv. Ich hoffe, dass wir auch in Zukunft wieder gemeinsam an gemeinnützigen Projekten arbeiten können." ,
+                "rating" : 5
+            },
+            {
+                "name": "BIRGIT RADECK",
+                "role": "S.T.A.R. – Integrationsprojekt für Migrantinnen  ",
+                "company": "",
+                "message": "Isse engagiert sich mit viel Einsatz ehrenamtlich bei der Migrantenselbstorganisation „Immigrant Networks“.\n\nEr ist Verantwortlicher für die Homepage und unterstützt auch tatkräftig bei Veranstaltungen und gemeinsamen Festen. Isse ist zuverlässig, arbeitet schnell und unkompliziert und ist immer bereit, mit anzupacken.\n\nMit seiner offenen und engagierten Art ist er eine wichtige Unterstützung für den Verein. Er ist eine Bereicherung für uns alle  und für die Stadtgesellschaft.  ",
                 "rating" : 5
             }
         ]

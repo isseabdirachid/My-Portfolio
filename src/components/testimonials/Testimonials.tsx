@@ -6,6 +6,9 @@ import TestimonialCard, {
 import "./testimonials.css";
 import ShinyText from "@/components/animations/ShinyText";
 import FrauBild from "@/assets/images/FrauBILD.jpg";
+import Buero from "@/assets/images/Buero.png";
+import Birgit from "@/assets/images/Birgit.jpeg";
+import Zara from "@/assets/images/Zara.jpg";
 
 
 const AUTO_SLIDE_TIME = 5000;
@@ -21,13 +24,13 @@ const Testimonials: React.FC = () => {
         ...testimonial,
         image:
             index === 0
-                ? "-"
+                ? Buero
                 : index === 1
                     ? FrauBild
                     : index === 2
-                        ? "-"
+                        ? Zara
                         : index === 3
-                            ? "-"
+                            ? Birgit
                             : testimonial.image,
     }));
 

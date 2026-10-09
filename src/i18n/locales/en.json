@@ -76,20 +76,20 @@
                 "role": "Neighbor",
                 "company": "",
                 "message": "He is a very kind and helpful young man. The world has become so digital these days that, honestly, I sometimes don’t understand everything. Whenever I have trouble with my phone or computer, he always takes the time to help me and explains things in a way that I can easily understand. I’m very grateful to him.",
-                "rating" : 3
-            },
-            {
-                "name": "Ali hassa",
-                "role": "Senior Full-Stack Developer",
-                "company": "",
-                "message": "He is very hardworking and enjoys learning new things. I especially noticed that he learns programming quickly and always tries to understand new things. He is helpful and easy to work with. When something is difficult, he simply asks me for help instead of giving up.\n",
                 "rating" : 4
             },
             {
-                "name": "Mrs Birgit R.",
-                "role": "Social & Community Work",
+                "name": "Ahmed Yuusuf",
+                "role": "Senior Full-Stack Developer",
                 "company": "",
-                "message": "He is a very kind and respectful person. He is always willing to help others, especially with digital matters and social activities. He has helped us with many things related to technology and our community work. We are also happy to have him as part of our community, and he is always ready to lend a hand whenever help is needed.\n",
+                "message": "I collaborated with Isse on a non-profit project to build a School Management System for a school in Somalia that couldn’t afford one. Isse handled the frontend development and made a valuable contribution to the project. Our collaboration was smooth and productive, and I hope we can work together again on future non-profit projects." ,
+                "rating" : 5
+            },
+            {
+                "name": "BIRGIT RADECK",
+                "role": "S.T.A.R. – Integration Project for Migrant Women\n",
+                "company": "",
+                "message": "Isse is actively involved in volunteering with the migrant self-help organization “Immigrant Networks”, where he contributes with great dedication and commitment. He is responsible for the organization’s website and also actively supports events and community celebrations. Isse is reliable, works quickly and efficiently, and is always willing to lend a helping hand whenever needed. With his friendly, open-minded, and committed attitude, he is an important source of support for the organization. He is a valuable asset to all of us and to the wider community of the city.",
                 "rating" : 5
             }
         ]
