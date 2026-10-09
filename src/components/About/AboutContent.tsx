@@ -1,8 +1,9 @@
 import { useState } from "react";
 
 import { useTranslation } from "react-i18next";
-import { ExternalLink } from "lucide-react";
 
+import { ExternalLink } from "lucide-react";
+ main
 import { Button } from "@/components/ui/button";
 import CVDialog from "@/components/shared/CVDialog.tsx";
 import ShinyText from "@/components/animations/ShinyText";
@@ -53,8 +54,10 @@ function AboutContent() {
                 }
                 className="mt-8 h-10 gap-2 bg-primary-custom text-sm text-white hover:bg-primary-custom/90"
             >
-                {t("about.resume")}
+                {t("about.resume")}dev
                 <ExternalLink className="size-4" />
+
+ main
             </Button>
 
             <CVDialog
