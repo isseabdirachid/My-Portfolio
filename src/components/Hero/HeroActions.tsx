@@ -11,22 +11,50 @@ function HeroActions() {
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3 sm:justify-start">
             <Button
                 asChild
-                className="gap-2 bg-primary-custom p-4 text-white hover:bg-primary-custom/90"
+                className="group gap-2 bg-primary-custom p-4 text-slate-100
+        shadow-[0_8px_20px_rgba(250,204,21,0.25)]
+        transition duration-[250ms]
+        hover:-translate-y-[3px] hover:bg-primary-custom/90
+        hover:shadow-[0_14px_32px_rgba(250,204,21,0.45)]
+        active:-translate-y-[1px]
+        focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-[3px] focus-visible:outline-yellow-400
+        motion-reduce:transition-none"
             >
                 <Link to="/contact">
                     {t("hero.connect")}
-                    <Handshake className="size-4" />
+
+                    <span
+                        className="flex items-center justify-center transition-transform duration-[250ms]
+                group-hover:translate-x-[3px] group-hover:-translate-y-[3px]
+                motion-reduce:transition-none"
+                    >
+            <Handshake className="size-4" />
+        </span>
                 </Link>
             </Button>
 
             <Button
                 asChild
                 variant="outline"
-                className="border-secondary-custom/20 text-secondary-custom hover:bg-secondary-custom/5"
+                className="group gap-2 border-secondary-custom/20 text-secondary-custom
+        shadow-[0_8px_20px_rgba(15,23,42,0.08)]
+        transition duration-[250ms]
+        hover:-translate-y-[3px] hover:bg-secondary-custom/5
+        hover:shadow-[0_14px_32px_rgba(15,23,42,0.18)]
+        active:-translate-y-[1px]
+        focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-[3px] focus-visible:outline-secondary-custom/40
+        motion-reduce:transition-none"
             >
                 <Link to="/portfolio">
                     {t("hero.viewWork")}
-                    <Briefcase className="size-6 text-primary-custom" />
+
+                    <span
+                        className="flex items-center justify-center transition-transform duration-[250ms]
+                group-hover:translate-x-[3px] group-hover:-translate-y-[3px]
+                motion-reduce:transition-none"
+                    >
+            <Briefcase className="size-6 text-primary-custom" />
+        </span>
                 </Link>
             </Button>
         </div>
