@@ -1,9 +1,9 @@
 {
     "navbar": {
         "home": "Home",
+        "blog": "Blog",
         "about": "About",
         "portfolio": "Portfolio",
-        "blog": "Blog",
         "contact": "Contact",
         "downloadCv": "Download CV"
     },
@@ -79,7 +79,7 @@
                 "rating" : 4
             },
             {
-                "name": "Ahmed Yuusuf",
+                "name": "Zara Max",
                 "role": "Senior Full-Stack Developer",
                 "company": "",
                 "message": "I collaborated with Isse on a non-profit project to build a School Management System for a school in Somalia that couldn’t afford one. Isse handled the frontend development and made a valuable contribution to the project. Our collaboration was smooth and productive, and I hope we can work together again on future non-profit projects." ,
