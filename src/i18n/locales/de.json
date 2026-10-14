@@ -1,9 +1,9 @@
 {
     "navbar": {
         "home": "Startseite",
+        "blog": "Blog",
         "about": "Über mich",
         "portfolio": "Portfolio",
-        "blog": "Blog",
         "contact": "Kontakt",
         "downloadCv": "CV Laden"
     },
