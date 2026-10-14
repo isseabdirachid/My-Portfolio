@@ -24,13 +24,15 @@
         "contact": "Contact Me",
         "cancel": "Cancel"
     },
+
     "about": {
         "title": "About Me",
-        "descriptionBefore": "I am an aspiring Software Engineer currently completing a dual, IHK-recognized vocational training program as an IT Specialist for Application Development at ",
-        "company": "Buero digitale services UG",
-        "descriptionAfter": ". I enjoy developing modern websites and applications, with a strong focus on clean code, good design, and an intuitive user experience. My goal is to continuously expand my knowledge in web and mobile development and eventually become a Full-Stack Developer. Through my vocational training and personal projects, I gain practical experience, learn new technologies, and turn ideas into functional applications. For me, development means solving problems, creating value, and continuously improving myself and my skills.",
-        "resume": "View Company"
-         },
+        "descriptionBefore": "I am an aspiring Software Engineer currently completing an IHK-recognized dual vocational training program as an IT Specialist in Application Development.",
+        "company": "",
+        "descriptionAfter": " I enjoy building modern web applications and digital solutions, with a strong focus on clean, maintainable code, thoughtful design, and intuitive user experiences. Through my vocational training and personal projects, I continuously develop my technical skills, explore new technologies, and turn ideas into functional applications. My goal is to grow into a Full-Stack Developer and expand my knowledge of web and mobile development. For me, software development is about solving problems, creating value, and improving with every project.",
+        "resume": "View Resume"
+    },
+
     "stack": {
         "title": "My Stack",
         "description": "Technologies I use to build modern digital products.",
