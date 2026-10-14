@@ -26,12 +26,12 @@
     },
     "about": {
         "title": "Über mich",
-        "descriptionBefore": "Ich bin angehender Software Engineer und absolviere eine duale, IHK-anerkannte Ausbildung zum Fachinformatiker für Anwendungsentwicklung bei ",
-        "company": "Buero digitale services UG",
-        "descriptionAfter": ". Ich entwickle gerne moderne Websites und Anwendungen und lege dabei großen Wert auf sauberen Code, gutes Design und eine intuitive User Experience. Mein Ziel ist es, meine Kenntnisse im Web- und Mobile-Development kontinuierlich zu erweitern und langfristig Full-Stack Developer zu werden. Durch meine Ausbildung und eigene Projekte sammle ich praktische Erfahrungen, lerne neue Technologien kennen und setze Ideen in funktionale Anwendungen um. Für mich bedeutet Development, Probleme zu lösen, Mehrwert zu schaffen und mich kontinuierlich weiterzuentwickeln.",
-        "resume": "Schreib mir"
+        "descriptionBefore": "Ich bin angehender Software Engineer und absolviere derzeit eine IHK-anerkannte duale Berufsausbildung zum Fachinformatiker für Anwendungsentwicklung.",
+        "descriptionAfter": "Ich entwickle gerne moderne Webanwendungen und digitale Lösungen. Dabei lege ich besonderen Wert auf sauberen, wartbaren Code, durchdachtes Design und eine intuitive Benutzererfahrung. Durch meine Ausbildung und persönliche Projekte erweitere ich kontinuierlich meine technischen Fähigkeiten, lerne neue Technologien kennen und setze eigene Ideen in funktionale Anwendungen um. Mein Ziel ist es, mich zu einem Full-Stack Developer weiterzuentwickeln und meine Kenntnisse in der Web- und Mobile-Entwicklung stetig auszubauen. Für mich bedeutet Softwareentwicklung, Probleme zu lösen, Mehrwert zu schaffen und mich mit jedem Projekt weiterzuentwickeln.",
+        "resume": "Lebenslauf ansehen"
 
-    },
+},
+
     "stack": {
         "title": "Mein Stack",
         "description": "Technologien, die ich nutze, um moderne digitale Produkte zu entwickeln.",
