@@ -4,7 +4,7 @@
 
 .contact-section {
 	width: 100%;
-	padding: 96px 24px;
+	padding: 34px 24px 90px;
 }
 
 .contact-section__container {
@@ -687,7 +687,7 @@
 
 @media (max-width: 900px) {
 	.contact-section {
-		padding: 80px 20px;
+		padding: 34px 24px 90px;
 	}
 
 	.contact-section__card {
@@ -727,7 +727,7 @@
 
 @media (max-width: 640px) {
 	.contact-section {
-		padding: 70px 16px;
+		padding: 34px 24px 90px;
 	}
 
 	.contact-section__border-wrapper {

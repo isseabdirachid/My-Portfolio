@@ -289,6 +289,7 @@ html.dark .magic-bento-scope
 .magic-bento-scope
 .magic-bento-card__github {
 	color: inherit;
+	font-size: 0.85rem;
 }
 
 
@@ -511,4 +512,9 @@ html.dark .magic-bento-scope
 .magic-bento-scope *::before,
 .magic-bento-scope *::after {
 	box-sizing: border-box;
+}
+.dark .magic-bento-card .magic-bento-card__label,
+.dark .magic-bento-card .magic-bento-card__title,
+.dark .magic-bento-card .magic-bento-card__github {
+	color: #111827 !important;
 }

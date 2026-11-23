@@ -10,13 +10,12 @@ function Projects() {
     const items = projectsData.map((project) => ({
         ...project,
         title: t(project.title),
-        description: t(project.description),
     }));
 
     return (
         <section
             id="projects"
-            className="w-full px-6 py-16 sm:py-18 lg:py-20"
+            className="w-full px-4 pb-12 pt-8 sm:pb-16 lg:pb-20"
         >
             <div className="mx-auto max-w-6xl">
                 <div className="mb-8 text-center">
@@ -38,6 +37,9 @@ function Projects() {
 
                     <p className="mx-auto mt-3 max-w-2xl px-4 text-base leading-6 text-secondary-custom/60 sm:px-0 sm:text-lg">
                         {t("projects.description")}
+                    </p>
+                    <p className="mx-auto mt-6 max-w-2xl px-4 text-md text-primary-custom sm:px-0">
+                        {t("projects.note")}
                     </p>
                 </div>
 

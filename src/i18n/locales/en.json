@@ -56,8 +56,16 @@
     },
     "projects": {
         "title": "Projects",
-        "description": "Some of the projects I’ve built with skill, creativity, modern technology, and responsive design."
-    },
+        "description": "Some of the projects I’ve built with skill, creativity, modern technology, and responsive design.",
+        "note": "I'm currently working on private projects, but as soon as I find time, I'll add public ones here.",
+        "project1": { "title": "Coming soon" },
+        "project2": { "title": "Coming soon" },
+        "project3": { "title": "Coming soon" },
+        "project4": { "title": "Coming soon" },
+        "project5": { "title": "Coming soon" },
+        "project6": { "title": "Future Project" }
+
+},
     "testimonials": {
         "eyebrow": "Testimonials",
         "title": "What I Stand For",

@@ -55,7 +55,14 @@
     },
     "projects": {
         "title": "Projekte",
-        "description": "Einige der Projekte, die ich mit Können, Kreativität, moderner Technologie und responsivem Design entwickelt habe."
+        "description": "Einige der Projekte, die ich mit Können, Kreativität, moderner Technologie und responsivem Design entwickelt habe.",
+        "note": "Aktuell arbeite ich an privaten Projekten, sobald ich Zeit finde, stelle ich hier öffentliche Projekte vor.",
+        "project1": { "title": "Bald verfügbar" },
+        "project2": { "title": "Bald verfügbar" },
+        "project3": { "title": "Bald verfügbar" },
+        "project4": { "title": "Bald verfügbar" },
+        "project5": { "title": "Bald verfügbar" },
+        "project6": { "title": "Zukünftiges Projekt" }
     },
     "testimonials": {
         "eyebrow": "Referenzen",

@@ -12,7 +12,7 @@ export interface BentoCardProps {
     color?: string;
     image: string;
     title: string;
-    description: string;
+    description?: string;
     label?: string;
     github: string;
 }
@@ -1148,13 +1148,6 @@ const MagicBento: React.FC<
                                             card.title
                                         }
                                     </h2>
-
-
-                                    <p className="magic-bento-card__description">
-                                        {
-                                            card.description
-                                        }
-                                    </p>
 
 
                                     <span className="magic-bento-card__github">
