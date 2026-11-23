@@ -8,9 +8,9 @@ import ModeToggle from "@/components/shared/ModeToggle.tsx";
 
 const navItems = [
     { key: "home", to: "/" },
+    { key: "blog", to: "/blog" },
     { key: "about", to: "/About" },
     { key: "portfolio", to: "/portfolio" },
-    { key: "blog", to: "/blog" },
     { key: "contact", to: "/contact" },
 ] as const;
 
@@ -124,7 +124,7 @@ function Footer() {
                 {/* DIVIDER */}
                 <div className="mx-auto mt-8 h-px w-full bg-slate-300/70 dark:bg-white/10" />
 
-                <div className="mt-8 flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
+                {/*<div className="mt-8 flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
                     <NavLink
                         to="/Impressum"
                         className="text-md font-semibold text-primary-custom transition-colors duration-300"
@@ -140,7 +140,7 @@ function Footer() {
                         {t("legal.privacy")}
                     </NavLink>
 
-                </div>
+                </div>/*}
 
                 {/* COPYRIGHT */}
                 <div className="py-6 text-center">
