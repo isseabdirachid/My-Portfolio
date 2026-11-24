@@ -1,4 +1,6 @@
-import PortfolioImage1 from "@/assets/images/Portofolio.png";
+import ProjectPic1 from "@/assets/images/ProjectPic1.png";
+
+
 export interface Project {
     id: string;
     image: string;
@@ -11,42 +13,42 @@ export interface Project {
 export const projectsData: Project[] = [
     {
         id: "project-1",
-        image: PortfolioImage1,
+        image: ProjectPic1,
         title: "projects.project1.title",
         github: "https://github.com/isseabdirachid",
         label: "Project",
     },
     {
-        id: "project-2",
-        image: PortfolioImage1,
+        id: "Project-2",
+        image: ProjectPic1,
         title: "projects.project2.title",
         github: "https://github.com/isseabdirachid",
         label: "Project",
     },
     {
         id: "project-3",
-        image: PortfolioImage1,
+        image: ProjectPic1,
         title: "projects.project3.title",
         github: "https://github.com/isseabdirachid",
         label: "Project",
     },
     {
         id: "project-4",
-        image: PortfolioImage1,
+        image: ProjectPic1,
         title: "projects.project4.title",
         github: "https://github.com/isseabdirachid",
         label: "Project",
     },
     {
         id: "project-5",
-        image: PortfolioImage1,
+        image: ProjectPic1,
         title: "projects.project5.title",
         github: "https://github.com/isseabdirachid",
         label: "Project",
     },
     {
         id: "project-6",
-        image: PortfolioImage1,
+        image: ProjectPic1,
         title: "projects.project6.title",
         github: "https://github.com/isseabdirachid",
         label: "Future Project",
