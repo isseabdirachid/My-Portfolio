@@ -22,9 +22,6 @@ function ProjectCard({ project }: ProjectCardProps) {
                     {t(project.title)}
                 </h3>
 
-                <p className="mt-2 text-sm leading-6 text-secondary-custom/70">
-                    {t(project.description)}
-                </p>
 
                 <a
                     href={project.github}
