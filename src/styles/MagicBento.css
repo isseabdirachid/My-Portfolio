@@ -518,3 +518,6 @@ html.dark .magic-bento-scope
 .dark .magic-bento-card .magic-bento-card__github {
 	color: #111827 !important;
 }
+
+/* remove image card title project name  */
+.magic-bento-scope .magic-bento-card__link > :not(.magic-bento-card__image) { display: none; }
