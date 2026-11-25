@@ -79,10 +79,8 @@ const Contact: React.FC = () => {
                             </p>
 
                             <div className="contact-section__details">
-                                <a
-                                    href={t("contact.emailHref")}
-                                    className="contact-section__detail"
-                                >
+                                {/* Email: no longer a link */}
+                                <div className="contact-section__detail">
                                     <span className="contact-section__detail-icon">
                                         <Mail size={17} />
                                     </span>
@@ -91,7 +89,7 @@ const Contact: React.FC = () => {
                                         <small>{t("contact.email")}</small>
                                         <strong>{t("contact.emailValue")}</strong>
                                     </span>
-                                </a>
+                                </div>
 
                                 <div className="contact-section__detail">
                                     <span className="contact-section__detail-icon">
@@ -115,6 +113,7 @@ const Contact: React.FC = () => {
                                     </span>
                                 </div>
                             </div>
+
                             {/* Illustration — desktop only (CSS) */}
                             <img
                                 src={contactIllustration}
@@ -122,6 +121,7 @@ const Contact: React.FC = () => {
                                 aria-hidden="true"
                                 className="contact-section__illustration"
                             />
+
                             {/* Socials */}
                             <div className="contact-section__socials">
                                 {socials.map((social) => {
@@ -149,8 +149,6 @@ const Contact: React.FC = () => {
                                     );
                                 })}
                             </div>
-
-
                         </div>
 
                         {/* Right Side */}
