@@ -1,0 +1,34 @@
+[
+    {
+        "slug": "ki-im-coding",
+        "category": "ai",
+        "date": "2026-11-20",
+        "readTime": 4,
+        "author": "Isse",
+        "image": "test.png",
+        "de": {
+            "title": "Wie KI das Programmieren verändert",
+            "excerpt": "Gute Prompts und die häufigsten Fehler bei der Arbeit mit KI.",
+            "content": [
+                { "type": "text", "text": "KI verändert, wie wir Code schreiben. Hier ein kurzer Überblick." },
+                { "type": "heading", "text": "1. Gute Prompts schreiben" },
+                { "type": "text", "text": "Ein klarer Prompt mit Kontext liefert deutlich bessere Ergebnisse." },
+                { "type": "image", "src": "test.png", "caption": "Beispielbild" },
+                { "type": "quote", "text": "KI ersetzt keine Entwickler, aber Entwickler mit KI ersetzen andere." },
+                { "type": "video", "youtubeId": "VIDEO_ID" }
+            ]
+        },
+        "en": {
+            "title": "How AI is changing programming",
+            "excerpt": "Good prompts and the most common mistakes when working with AI.",
+            "content": [
+                { "type": "text", "text": "AI is changing how we write code. Here is a short overview." },
+                { "type": "heading", "text": "1. Writing good prompts" },
+                { "type": "text", "text": "A clear prompt with context gives much better results." },
+                { "type": "image", "src": "test.png", "caption": "Example image" },
+                { "type": "quote", "text": "AI won't replace developers, but developers using AI will replace others." },
+                { "type": "video", "youtubeId": "VIDEO_ID" }
+            ]
+        }
+    }
+]

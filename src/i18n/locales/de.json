@@ -166,8 +166,19 @@
         "filterCategory": "Kategorie",
         "filterSort": "Sortierung",
         "categories": { "all": "Alle", "news": "Tech & World News", "fullstack": "Full-Stack ", "ai": "KI" },
-        "sort": { "newest": "Neueste zuerst", "oldest": "Älteste zuerst" }
+        "sort": { "newest": "Neueste zuerst", "oldest": "Älteste zuerst" },
+        "minRead": "Min. Lesezeit",
+        "readMore": "Weiterlesen",
+        "posts": [
+            { "slug": "ki-im-coding", "image": "test.png", "category": "ai", "date": "2026-11-20", "readTime": 4, "author": "Isse", "title": "Wie KI das Programmieren verändert", "excerpt": "Gute Prompts und die häufigsten Fehler bei der Arbeit mit KI." },
+            { "slug": "fullstack-roadmap", "image": "test.png", "category": "fullstack", "date": "2026-11-12", "readTime": 5, "author": "Isse", "title": "Full-Stack-Roadmap für Einsteiger", "excerpt": "Frontend, Backend und Datenbanken in der richtigen Reihenfolge lernen." },
+            { "slug": "tech-news-woche", "image": "test.png", "category": "news", "date": "2026-11-05", "readTime": 3, "author": "Isse", "title": "Tech-News der Woche", "excerpt": "Die wichtigsten Neuigkeiten aus der Tech-Welt kurz zusammengefasst." },
+            { "slug": "react-grundlagen", "image": "test.png", "category": "fullstack", "date": "2026-10-28", "readTime": 6, "author": "Isse", "title": "React-Grundlagen verständlich erklärt", "excerpt": "Komponenten, State und Props mit einem echten Beispiel." }
+
+        ]
+
     }
+
 }
 
 
