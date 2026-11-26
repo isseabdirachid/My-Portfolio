@@ -15,11 +15,11 @@ function Projects() {
     return (
         <section
             id="projects"
-            className="w-full px-4 pb-12 pt-8 sm:pb-16 lg:pb-20"
+            className="min-h-screen px-6 py-16"
         >
             <div className="mx-auto max-w-6xl">
                 <div className="mb-8 text-center">
-                    <h3 className="font-poppins text-4xl font-semibold leading-tight tracking-tight text-secondary-custom sm:text-5xl">
+                    <h3 className="text-4xl font-bold text-slate-900 md:text-5xl dark:text-white">
                         <ShinyText
                             text={t("projects.title")}
                             speed={2}
@@ -31,11 +31,11 @@ function Projects() {
                             yoyo={false}
                             pauseOnHover={false}
                             disabled={false}
-                            className="font-semibold text-slate-900 dark:text-white"
+                            className=" text-slate-900 dark:text-white overflow-visible leading-[1.5]"
                         />
                     </h3>
 
-                    <p className="mx-auto mt-3 max-w-2xl px-4 text-base leading-6 text-secondary-custom/60 sm:px-0 sm:text-lg">
+                    <p className="mx-auto mt-2 max-w-2xl px-4 text-base leading-6 text-secondary-custom/60 sm:px-0 sm:text-lg">
                         {t("projects.description")}
                     </p>
                     <p className="mx-auto mt-6 max-w-2xl px-4 text-md text-primary-custom sm:px-0">

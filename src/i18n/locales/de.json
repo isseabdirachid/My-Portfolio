@@ -54,7 +54,7 @@
         "newGame": "Neues Spiel"
     },
     "projects": {
-        "title": "Projekte",
+        "title": "Meine Projekte",
         "description": "Einige der Projekte, die ich mit Können, Kreativität, moderner Technologie und responsivem Design entwickelt habe.",
         "note": "Aktuell arbeite ich an privaten Projekten, sobald ich Zeit finde, stelle ich hier öffentliche Projekte vor.",
         "project1": { "title": "Bald verfügbar" },
@@ -156,6 +156,17 @@
         "impressumSubtitle": "Angaben zum Betreiber und Kontaktinformationen.",
         "privacyTitle": "Datenschutzerklärung",
         "privacySubtitle": "Informationen zum Schutz Ihrer personenbezogenen Daten."
+    },
+    "blog": {
+        "title": "Die Welt der Technologie",
+        "subtitle": "Entdecke Ideen rund um Künstliche Intelligenz und FullStack Entwicklung.\nTeile Perspektiven über Innovationen, neue Tech und die Zukunft der digitalen Welt.",
+        "searchPlaceholder": "Beiträge suchen...",
+        "searchLabel": "Beiträge durchsuchen",
+        "filters": "Filter",
+        "filterCategory": "Kategorie",
+        "filterSort": "Sortierung",
+        "categories": { "all": "Alle", "news": "Tech & World News", "fullstack": "Full-Stack ", "ai": "KI" },
+        "sort": { "newest": "Neueste zuerst", "oldest": "Älteste zuerst" }
     }
 }
 

@@ -1,10 +1,10 @@
-
+import BlogHero from "@/components/Blog/BlogHero";
 import Footer from "@/components/Footer/Footer";
 
 function Blog() {
     return (
         <main>
-            <h1>About</h1>
+            <BlogHero />
             <Footer />
 
 

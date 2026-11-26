@@ -55,7 +55,7 @@
         "newGame": "New Game"
     },
     "projects": {
-        "title": "Projects",
+        "title": "My Projects",
         "description": "Some of the projects I’ve built with skill, creativity, modern technology, and responsive design.",
         "note": "I'm currently working on private projects, but as soon as I find time, I'll add public ones here.",
         "project1": { "title": "Coming soon" },
@@ -156,6 +156,18 @@
         "impressumSubtitle": "Information about the website operator and contact details.",
         "privacyTitle": "Privacy Policy",
         "privacySubtitle": "Information about how your personal data is protected."
+    },
+    "blog": {
+        "title": "The World of Technology",
+        "subtitle": "Explore ideas about Artificial Intelligence and Full-Stack Development.\nShare perspectives on innovation, emerging technologies, and the future of the digital world.",
+        "searchPlaceholder": "Search posts...",
+        "searchLabel": "Search posts",
+        "filters": "Filters",
+        "filterCategory": "Category",
+        "filterSort": "Sort by",
+        "categories": { "all": "All", "news": "Tech & World News", "fullstack": "Full-Stack", "ai": "AI"},
+        "sort": { "newest": "Newest first", "oldest": "Oldest first" }
     }
 }
+
 
