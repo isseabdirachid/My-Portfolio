@@ -39,7 +39,7 @@ const renderBlock = (block: Block, i: number) => {
             return (
                 <blockquote
                     key={i}
-                    className="border-l-4 border-orange-500 pl-5 text-lg italic leading-8 text-slate-700 dark:text-slate-300"
+                    className="border-l-4 border-primary-custom pl-5 text-lg italic leading-8 text-slate-700 dark:text-slate-300"
                 >
                     {block.text}
                 </blockquote>
@@ -86,7 +86,7 @@ const PostPage: React.FC = () => {
             <main>
                 <div className="bg-stone-50 px-6 py-24 text-center dark:bg-slate-950">
                     <p className="text-lg text-slate-700 dark:text-slate-300">{t("blog.notFound")}</p>
-                    <Link to="/blog" className="mt-4 inline-block font-semibold text-orange-700 dark:text-orange-400">
+                    <Link to="/blog" className="mt-4 inline-block font-semibold text-primary-custom dark:text-primary-custom">
                         {t("blog.back")}
                     </Link>
                 </div>
@@ -111,13 +111,13 @@ const PostPage: React.FC = () => {
                 <div className="mx-auto max-w-[700px]">
                     <Link
                         to="/blog"
-                        className="inline-flex items-center gap-2 text-sm font-semibold text-orange-700 dark:text-orange-400"
+                        className="inline-flex items-center gap-2 text-sm font-semibold text-primary-custom dark:text-primary-custom"
                     >
                         <ArrowLeft size={16} aria-hidden="true" /> {t("blog.back")}
                     </Link>
 
                     <div className="mt-8 text-sm text-slate-600 dark:text-slate-400">
-                        <span className="font-bold uppercase tracking-wider text-orange-700 dark:text-orange-400">
+                        <span className="font-bold uppercase tracking-wider text-primary-custom dark:text-priamry-custom">
                             {category}
                         </span>{" "}
                         · {date}

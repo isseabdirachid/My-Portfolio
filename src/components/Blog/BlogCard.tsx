@@ -65,7 +65,7 @@ const BlogCard: React.FC<{ post: BlogPost }> = ({ post }) => {
             </div>
 
             <div className="p-5">
-                <span className="text-xs font-bold uppercase tracking-wider text-orange-700 dark:text-orange-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-primary-custom dark:text-primary-custom">
                     {category}
                 </span>
                 <h3 className="mt-2 text-xl font-bold leading-snug text-slate-900 dark:text-white">
@@ -77,7 +77,7 @@ const BlogCard: React.FC<{ post: BlogPost }> = ({ post }) => {
                 <div className="mt-4 text-sm text-slate-600 dark:text-slate-400">
                     {post.author} · {date} · {post.readTime} {t("blog.minRead")}
                 </div>
-                <div className="mt-3 flex items-center gap-1 text-sm font-semibold text-orange-700 opacity-0 transition duration-300 group-hover:opacity-100 dark:text-orange-400">
+                <div className="mt-3 flex items-center gap-1 text-sm font-semibold text-primary-custom opacity-0 transition duration-300 group-hover:opacity-100 dark:text-primary-custom">
                     {t("blog.readMore")} <ArrowRight size={16} />
                 </div>
             </div>
