@@ -8,6 +8,7 @@ import Background from "@/components/animations/Background";
 import About from "@/pages/About";
 import LegalNotice from "@/components/PrivacyPolicy/LegalNotice.tsx";
 import PrivacyPolicy from "@/components/PrivacyPolicy/PrivacyPolicy.tsx";
+import PostPage from "@/pages/PostPage";
 
 function App() {
     return (
@@ -23,7 +24,7 @@ function App() {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/Impressum" element={<LegalNotice />} />
                     <Route path="/Datenschutz" element={<PrivacyPolicy />} />
-
+                    <Route path="/blog/:slug" element={<PostPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>

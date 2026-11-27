@@ -12,9 +12,9 @@
         "name": "Isse Abdirachid",
         "profession": "IT Specialist",
         "position": "Apprentice",
-        "description": "I’m passionate about building modern, responsive, and user-friendly digital experiences with clean code and thoughtful design. I’m continuously developing my skills in web and mobile development, with the goal of becoming a well-rounded full-stack developer.",
+        "description": "I’m passionate about building modern, responsive, and user-friendly digital experiences with clean code and thoughtful design. I’m continuously developing my skills in web and mobile development, with the goal of becoming a well-rounded full-stack developer. Read my blog you'll discover much more there!",
         "connect": "Let's Connect",
-        "viewWork": "View My Work"
+        "viewWork": "Read my blog"
     },
     "cv": {
         "title": "CV Request",
@@ -55,7 +55,7 @@
         "newGame": "New Game"
     },
     "projects": {
-        "title": "Projects",
+        "title": "My Projects",
         "description": "Some of the projects I’ve built with skill, creativity, modern technology, and responsive design.",
         "note": "I'm currently working on private projects, but as soon as I find time, I'll add public ones here.",
         "project1": { "title": "Coming soon" },
@@ -156,6 +156,32 @@
         "impressumSubtitle": "Information about the website operator and contact details.",
         "privacyTitle": "Privacy Policy",
         "privacySubtitle": "Information about how your personal data is protected."
+    },
+    "blog": {
+        "title": "The World of Technology",
+        "subtitle": "Discover ideas around artificial intelligence and full-stack development.\nShare perspectives on innovation, new tech and the future of the digital world.",
+        "searchPlaceholder": "Search posts...",
+        "searchLabel": "Search posts",
+        "filters": "Filters",
+        "filterCategory": "Category",
+        "filterSort": "Sort",
+        "categories": {
+            "all": "All",
+            "news": "Tech & World News",
+            "fullstack": "Full-Stack",
+            "ai": "AI"
+        },
+        "sort": {
+            "newest": "Newest first",
+            "oldest": "Oldest first"
+        },
+        "minRead": "min read",
+        "readMore": "Read more",
+        "back": "Back to blog",
+        "notFound": "Post not found.",
+        "empty": "No posts found."
+
     }
 }
+
 

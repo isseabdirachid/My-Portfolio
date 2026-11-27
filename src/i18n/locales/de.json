@@ -12,9 +12,9 @@
         "name": "Isse Abdirachid",
         "profession": "Fachinformatiker",
         "position": "Auszubildender",
-        "description": "Ich begeistere mich dafür, moderne, responsive und benutzerfreundliche digitale Erlebnisse mit sauberem Code und durchdachtem Design zu entwickeln. Ich erweitere kontinuierlich meine Kenntnisse in der Web- und Mobile-Entwicklung mit dem Ziel, ein vielseitiger Full-Stack-Entwickler zu werden.",
+        "description": "Ich begeistere mich dafür, moderne, responsive und benutzerfreundliche digitale Erlebnisse mit sauberem Code und durchdachtem Design zu entwickeln. Ich erweitere kontinuierlich meine Kenntnisse in der Web- und Mobile-Entwicklung mit dem Ziel, ein vielseitiger Full-Stack-Entwickler zu werden. Lies gerne meinen Blog dort erfährst du noch mehr!",
         "connect": "Schreib mir",
-        "viewWork": "Projekte"
+        "viewWork": "Blog lesen"
     },
     "cv": {
         "title": "Lebenslauf anfordern",
@@ -54,7 +54,7 @@
         "newGame": "Neues Spiel"
     },
     "projects": {
-        "title": "Projekte",
+        "title": "Meine Projekte",
         "description": "Einige der Projekte, die ich mit Können, Kreativität, moderner Technologie und responsivem Design entwickelt habe.",
         "note": "Aktuell arbeite ich an privaten Projekten, sobald ich Zeit finde, stelle ich hier öffentliche Projekte vor.",
         "project1": { "title": "Bald verfügbar" },
@@ -156,7 +156,34 @@
         "impressumSubtitle": "Angaben zum Betreiber und Kontaktinformationen.",
         "privacyTitle": "Datenschutzerklärung",
         "privacySubtitle": "Informationen zum Schutz Ihrer personenbezogenen Daten."
+    },
+    "blog": {
+        "title": "Die Welt der Technologie",
+        "subtitle": "Entdecke Ideen rund um Künstliche Intelligenz und FullStack Entwicklung.\nTeile Perspektiven über Innovationen, neue Tech und die Zukunft der digitalen Welt.",
+        "searchPlaceholder": "Beiträge suchen...",
+        "searchLabel": "Beiträge durchsuchen",
+        "filters": "Filter",
+        "filterCategory": "Kategorie",
+        "filterSort": "Sortierung",
+        "categories": {
+            "all": "Alle",
+            "news": "Tech & World News",
+            "fullstack": "Full-Stack",
+            "ai": "KI"
+        },
+        "sort": {
+            "newest": "Neueste zuerst",
+            "oldest": "Älteste zuerst"
+        },
+        "minRead": "Min. Lesezeit",
+        "readMore": "Weiterlesen",
+        "back": "Zurück zum Blog",
+        "notFound": "Beitrag nicht gefunden.",
+        "empty": "Keine Beiträge gefunden."
     }
+
+
+
 }
 
 
