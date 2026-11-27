@@ -29,7 +29,7 @@ const socials = [
     },
     {
         name: "Email",
-        href: "mailto:your@email.com",
+        href: "mailto:isseabdirachid@email.com",
         icon: Mail,
         external: false,
     },
@@ -37,6 +37,7 @@ const socials = [
 
 function Footer() {
     const { t } = useTranslation();
+    const currentYear = new Date().getFullYear();
 
     return (
         <footer className="relative isolate w-full min-w-0 overflow-x-clip overflow-y-hidden border-t border-slate-200/70 bg-slate-100 text-slate-900 dark:border-white/10 dark:bg-slate-950/80 dark:text-white dark:backdrop-blur-sm">
@@ -120,11 +121,11 @@ function Footer() {
                     <ModeToggle />
                 </div>
 
-
                 {/* DIVIDER */}
                 <div className="mx-auto mt-8 h-px w-full bg-slate-300/70 dark:bg-white/10" />
 
-                {/*<div className="mt-8 flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
+                {/*
+                <div className="mt-8 flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
                     <NavLink
                         to="/Impressum"
                         className="text-md font-semibold text-primary-custom transition-colors duration-300"
@@ -132,25 +133,24 @@ function Footer() {
                         {t("legal.impressum")}
                     </NavLink>
 
-
                     <NavLink
                         to="/Datenschutz"
                         className="text-md font-semibold text-primary-custom transition-colors duration-300"
                     >
                         {t("legal.privacy")}
                     </NavLink>
-
-                </div>/*}
+                </div>
+                */}
 
                 {/* COPYRIGHT */}
                 <div className="py-6 text-center">
                     <p className="text-xs text-slate-500 dark:text-slate-400 sm:text-sm">
-                        © 2026 Isse Abdirachid · All Rights Reserved
+                        © {currentYear} Isse Abdirachid · All Rights Reserved
                     </p>
                 </div>
             </div>
 
-            {/* BIG NAME */}
+            {/* Isse Abdirachid NAME */}
             <div
                 aria-hidden="true"
                 className="w-full min-w-0 max-w-full overflow-hidden px-0"
