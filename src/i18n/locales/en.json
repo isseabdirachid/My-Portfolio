@@ -159,22 +159,28 @@
     },
     "blog": {
         "title": "The World of Technology",
-        "subtitle": "Explore ideas about Artificial Intelligence and Full-Stack Development.\nShare perspectives on innovation, emerging technologies, and the future of the digital world.",
+        "subtitle": "Discover ideas around artificial intelligence and full-stack development.\nShare perspectives on innovation, new tech and the future of the digital world.",
         "searchPlaceholder": "Search posts...",
         "searchLabel": "Search posts",
         "filters": "Filters",
         "filterCategory": "Category",
-        "filterSort": "Sort by",
-        "categories": { "all": "All", "news": "Tech & World News", "fullstack": "Full-Stack", "ai": "AI"},
-        "sort": { "newest": "Newest first", "oldest": "Oldest first" },
+        "filterSort": "Sort",
+        "categories": {
+            "all": "All",
+            "news": "Tech & World News",
+            "fullstack": "Full-Stack",
+            "ai": "AI"
+        },
+        "sort": {
+            "newest": "Newest first",
+            "oldest": "Oldest first"
+        },
         "minRead": "min read",
         "readMore": "Read more",
-        "posts": [
-            { "slug": "ki-im-coding", "image": "components/Blog/BlogImages/test.png", "category": "ai", "date": "2026-11-20", "readTime": 4, "author": "Isse", "title": "How AI is changing programming", "excerpt": "Good prompts and the most common mistakes when working with AI." },
-            { "slug": "fullstack-roadmap", "image": "/blog/fullstack-roadmap.webp", "category": "fullstack", "date": "2026-11-12", "readTime": 5, "author": "Isse", "title": "Full-stack roadmap for beginners", "excerpt": "Learn frontend, backend and databases in the right order." },
-            { "slug": "tech-news-woche", "image": "/blog/tech-news-woche.webp", "category": "news", "date": "2026-11-05", "readTime": 3, "author": "Isse", "title": "Tech news of the week", "excerpt": "The most important news from the tech world in a nutshell." },
-            { "slug": "react-grundlagen", "image": "/blog/react-grundlagen.webp", "category": "fullstack", "date": "2026-10-28", "readTime": 6, "author": "Isse", "title": "React basics explained clearly", "excerpt": "Components, state and props with a real example." }
-        ]
+        "back": "Back to blog",
+        "notFound": "Post not found.",
+        "empty": "No posts found."
+
     }
 }
 

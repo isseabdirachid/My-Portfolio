@@ -14,8 +14,9 @@
                 { "type": "heading", "text": "1. Gute Prompts schreiben" },
                 { "type": "text", "text": "Ein klarer Prompt mit Kontext liefert deutlich bessere Ergebnisse." },
                 { "type": "image", "src": "test.png", "caption": "Beispielbild" },
-                { "type": "quote", "text": "KI ersetzt keine Entwickler, aber Entwickler mit KI ersetzen andere." },
-                { "type": "video", "youtubeId": "VIDEO_ID" }
+                { "type": "heading", "text": "2. Häufige Fehler" },
+                { "type": "text", "text": "Viele übernehmen generierten Code ungeprüft. Lies und teste jeden Vorschlag, bevor du ihn verwendest." },
+                { "type": "quote", "text": "KI ersetzt keine Entwickler, aber Entwickler mit KI ersetzen andere." }
             ]
         },
         "en": {
@@ -26,8 +27,179 @@
                 { "type": "heading", "text": "1. Writing good prompts" },
                 { "type": "text", "text": "A clear prompt with context gives much better results." },
                 { "type": "image", "src": "test.png", "caption": "Example image" },
-                { "type": "quote", "text": "AI won't replace developers, but developers using AI will replace others." },
-                { "type": "video", "youtubeId": "VIDEO_ID" }
+                { "type": "heading", "text": "2. Common mistakes" },
+                { "type": "text", "text": "Many people use generated code without checking it. Read and test every suggestion before you use it." },
+                { "type": "quote", "text": "AI won't replace developers, but developers using AI will replace others." }
+            ]
+        }
+    },
+    {
+        "slug": "fullstack-roadmap",
+        "category": "fullstack",
+        "date": "2026-11-12",
+        "readTime": 5,
+        "author": "Isse",
+        "image": "test.png",
+        "de": {
+            "title": "Full-Stack-Roadmap für Einsteiger",
+            "excerpt": "Frontend, Backend und Datenbanken in der richtigen Reihenfolge lernen.",
+            "content": [
+                { "type": "text", "text": "Full-Stack zu lernen wirkt am Anfang überwältigend. Mit einer klaren Reihenfolge wird es machbar." },
+                { "type": "heading", "text": "1. Frontend-Grundlagen" },
+                { "type": "text", "text": "Starte mit HTML, CSS und JavaScript. Danach lohnt sich ein Framework wie React." },
+                { "type": "image", "src": "test.png", "caption": "Der Weg vom Frontend zum Backend" },
+                { "type": "heading", "text": "2. Backend und Datenbanken" },
+                { "type": "text", "text": "Lerne eine Backend-Sprache, baue eine REST-API und speichere Daten in einer Datenbank wie PostgreSQL." },
+                { "type": "quote", "text": "Baue früh eigene Projekte. Nur so bleibt das Gelernte hängen." }
+            ]
+        },
+        "en": {
+            "title": "Full-stack roadmap for beginners",
+            "excerpt": "Learn frontend, backend and databases in the right order.",
+            "content": [
+                { "type": "text", "text": "Learning full-stack can feel overwhelming at first. With a clear order, it becomes doable." },
+                { "type": "heading", "text": "1. Frontend basics" },
+                { "type": "text", "text": "Start with HTML, CSS and JavaScript. After that, a framework like React is worth learning." },
+                { "type": "image", "src": "test.png", "caption": "The path from frontend to backend" },
+                { "type": "heading", "text": "2. Backend and databases" },
+                { "type": "text", "text": "Learn a backend language, build a REST API and store data in a database such as PostgreSQL." },
+                { "type": "quote", "text": "Build your own projects early. That is the only way what you learn sticks." }
+            ]
+        }
+    },
+    {
+        "slug": "tech-news-woche",
+        "category": "news",
+        "date": "2026-11-05",
+        "readTime": 3,
+        "author": "Isse",
+        "image": "test.png",
+        "de": {
+            "title": "Tech-News der Woche",
+            "excerpt": "Die wichtigsten Neuigkeiten aus der Tech-Welt kurz zusammengefasst.",
+            "content": [
+                { "type": "text", "text": "Jede Woche passiert viel in der Tech-Welt. Hier die wichtigsten Themen in Kürze." },
+                { "type": "heading", "text": "Künstliche Intelligenz" },
+                { "type": "text", "text": "Neue Modelle und Werkzeuge erscheinen im Wochentakt und werden immer häufiger im Arbeitsalltag eingesetzt." },
+                { "type": "image", "src": "test.png", "caption": "Tech-Überblick" },
+                { "type": "heading", "text": "Entwickler-Tools" },
+                { "type": "text", "text": "Editoren, Frameworks und Bibliotheken bekommen laufend Updates, die den Alltag von Entwicklern erleichtern." },
+                { "type": "quote", "text": "Wer die Grundlagen kennt, kann jede neue Technologie schneller einordnen." }
+            ]
+        },
+        "en": {
+            "title": "Tech news of the week",
+            "excerpt": "The most important news from the tech world in a nutshell.",
+            "content": [
+                { "type": "text", "text": "A lot happens in tech every week. Here are the most important topics in brief." },
+                { "type": "heading", "text": "Artificial intelligence" },
+                { "type": "text", "text": "New models and tools appear every week and are increasingly used in everyday work." },
+                { "type": "image", "src": "test.png", "caption": "Tech overview" },
+                { "type": "heading", "text": "Developer tools" },
+                { "type": "text", "text": "Editors, frameworks and libraries get regular updates that make developers' daily work easier." },
+                { "type": "quote", "text": "If you know the fundamentals, you can place any new technology faster." }
+            ]
+        }
+    },
+    {
+        "slug": "react-grundlagen",
+        "category": "fullstack",
+        "date": "2026-10-28",
+        "readTime": 6,
+        "author": "Isse",
+        "image": "test.png",
+        "de": {
+            "title": "React-Grundlagen verständlich erklärt",
+            "excerpt": "Komponenten, State und Props mit einem echten Beispiel.",
+            "content": [
+                { "type": "text", "text": "React baut Oberflächen aus kleinen, wiederverwendbaren Bausteinen, den Komponenten." },
+                { "type": "heading", "text": "1. Komponenten und Props" },
+                { "type": "text", "text": "Eine Komponente ist eine Funktion, die UI zurückgibt. Mit Props gibst du ihr Daten von außen mit." },
+                { "type": "image", "src": "test.png", "caption": "Komponenten-Baum" },
+                { "type": "heading", "text": "2. State" },
+                { "type": "text", "text": "State speichert Daten, die sich ändern können, zum Beispiel einen Suchbegriff. Ändert sich der State, zeichnet React die Komponente neu." },
+                { "type": "quote", "text": "Denke in Komponenten: Eine Aufgabe, ein Baustein." }
+            ]
+        },
+        "en": {
+            "title": "React basics explained simply",
+            "excerpt": "Components, state and props with a real example.",
+            "content": [
+                { "type": "text", "text": "React builds interfaces from small, reusable building blocks called components." },
+                { "type": "heading", "text": "1. Components and props" },
+                { "type": "text", "text": "A component is a function that returns UI. With props, you pass data into it from outside." },
+                { "type": "image", "src": "test.png", "caption": "Component tree" },
+                { "type": "heading", "text": "2. State" },
+                { "type": "text", "text": "State stores data that can change, for example a search term. When the state changes, React re-renders the component." },
+                { "type": "quote", "text": "Think in components: one job, one building block." }
+            ]
+        }
+    },
+    {
+        "slug": "typescript-vorteile",
+        "category": "fullstack",
+        "date": "2026-10-20",
+        "readTime": 5,
+        "author": "Isse",
+        "image": "test.png",
+        "de": {
+            "title": "Warum TypeScript sich lohnt",
+            "excerpt": "Weniger Fehler, bessere Autovervollständigung und klarerer Code.",
+            "content": [
+                { "type": "text", "text": "TypeScript erweitert JavaScript um Typen. Dadurch findest du viele Fehler schon beim Schreiben." },
+                { "type": "heading", "text": "1. Fehler früh erkennen" },
+                { "type": "text", "text": "Der Editor zeigt dir sofort, wenn ein Wert den falschen Typ hat, noch bevor du die App startest." },
+                { "type": "image", "src": "test.png", "caption": "Typfehler im Editor" },
+                { "type": "heading", "text": "2. Besser im Team arbeiten" },
+                { "type": "text", "text": "Typen dokumentieren, was eine Funktion erwartet und zurückgibt. Das erleichtert die Zusammenarbeit." },
+                { "type": "quote", "text": "Typen sind Dokumentation, die der Compiler überprüft." }
+            ]
+        },
+        "en": {
+            "title": "Why TypeScript is worth it",
+            "excerpt": "Fewer bugs, better autocompletion and clearer code.",
+            "content": [
+                { "type": "text", "text": "TypeScript adds types to JavaScript. This lets you catch many errors while you are still writing code." },
+                { "type": "heading", "text": "1. Catch errors early" },
+                { "type": "text", "text": "Your editor immediately shows you when a value has the wrong type, before you even start the app." },
+                { "type": "image", "src": "test.png", "caption": "Type error in the editor" },
+                { "type": "heading", "text": "2. Work better in a team" },
+                { "type": "text", "text": "Types document what a function expects and returns. This makes collaboration easier." },
+                { "type": "quote", "text": "Types are documentation that the compiler checks for you." }
+            ]
+        }
+    },
+    {
+        "slug": "ai-tools-entwickler",
+        "category": "ai",
+        "date": "2026-10-12",
+        "readTime": 4,
+        "author": "Isse",
+        "image": "test.png",
+        "de": {
+            "title": "KI-Tools für Entwickler",
+            "excerpt": "Welche KI-Tools im Arbeitsalltag wirklich helfen.",
+            "content": [
+                { "type": "text", "text": "Es gibt viele KI-Tools für Entwickler. Nicht alle sparen wirklich Zeit." },
+                { "type": "heading", "text": "1. Code-Assistenten" },
+                { "type": "text", "text": "Assistenten im Editor schlagen Code vor, erklären Fehler und schreiben Tests. Wichtig ist, jeden Vorschlag zu prüfen." },
+                { "type": "image", "src": "test.png", "caption": "KI-Assistent im Editor" },
+                { "type": "heading", "text": "2. Lernen und Recherche" },
+                { "type": "text", "text": "KI kann Konzepte erklären und Beispiele liefern. Sie ersetzt aber nicht die offizielle Dokumentation." },
+                { "type": "quote", "text": "Ein gutes Tool nimmt dir Routinearbeit ab, nicht das Denken." }
+            ]
+        },
+        "en": {
+            "title": "AI tools for developers",
+            "excerpt": "Which AI tools really help in your daily work.",
+            "content": [
+                { "type": "text", "text": "There are many AI tools for developers. Not all of them really save time." },
+                { "type": "heading", "text": "1. Code assistants" },
+                { "type": "text", "text": "Assistants in your editor suggest code, explain errors and write tests. It is important to check every suggestion." },
+                { "type": "image", "src": "test.png", "caption": "AI assistant in the editor" },
+                { "type": "heading", "text": "2. Learning and research" },
+                { "type": "text", "text": "AI can explain concepts and provide examples. But it does not replace the official documentation." },
+                { "type": "quote", "text": "A good tool takes routine work off your plate, not the thinking." }
             ]
         }
     }

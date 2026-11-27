@@ -5,16 +5,33 @@ import BlogHero from "@/components/Blog/BlogHero";
 import BlogGrid from "@/components/Blog/BlogGrid";
 import type { BlogPost } from "@/components/Blog/BlogCard";
 import Footer from "@/components/Footer/Footer";
+import postData from "@/data/post.json";
 
 function Blog() {
-    const { t } = useTranslation();
+    const { i18n } = useTranslation();
+    const lang = i18n.language?.startsWith("en") ? "en" : "de";
 
     const [query, setQuery] = useState("");
     const [category, setCategory] = useState("all");
     const [sort, setSort] = useState("newest");
 
-    const rawPosts = t("blog.posts", { returnObjects: true });
-    const posts: BlogPost[] = Array.isArray(rawPosts) ? (rawPosts as BlogPost[]) : [];
+    const posts: BlogPost[] = useMemo(
+        () =>
+            postData.map((p) => {
+                const text = p[lang] ?? p.de;
+                return {
+                    slug: p.slug,
+                    image: p.image,
+                    category: p.category,
+                    date: p.date,
+                    readTime: p.readTime,
+                    author: p.author,
+                    title: text.title,
+                    excerpt: text.excerpt,
+                };
+            }),
+        [lang]
+    );
 
     const visiblePosts = useMemo(() => {
         const q = query.trim().toLowerCase();
