@@ -1,4 +1,4 @@
-import { Briefcase, Handshake } from "lucide-react";
+import { NotebookText , Handshake } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -45,7 +45,7 @@ function HeroActions() {
         focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-[3px] focus-visible:outline-secondary-custom/40
         motion-reduce:transition-none"
             >
-                <Link to="/portfolio">
+                <Link to="/blog">
                     {t("hero.viewWork")}
 
                     <span
@@ -53,7 +53,7 @@ function HeroActions() {
                 group-hover:translate-x-[3px] group-hover:-translate-y-[3px]
                 motion-reduce:transition-none"
                     >
-            <Briefcase className="size-6 text-primary-custom" />
+            <NotebookText  className="size-5 text-primary-custom" />
         </span>
                 </Link>
             </Button>

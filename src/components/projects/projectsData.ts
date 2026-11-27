@@ -1,8 +1,13 @@
+import Dataextraction from "@/assets/Project-images/Data extraction-rafiki2.png"
+import Handcoding  from "@/assets/Project-images/Hand coding-pana.svg"
+import Dashboard from "@/assets/Project-images/Dashboard-cuate.svg"
+import Static  from "@/assets/Project-images/Static website-amico.svg"
+import Connected from "@/assets/Project-images/Connected-cuate.svg"
+import Handcodingamico from "@/assets/Project-images/Hand coding-amico.svg"
 export interface Project {
     id: string;
     image: string;
     title: string;
-    description: string;
     github: string;
     label?: string;
     color?: string;
@@ -11,50 +16,44 @@ export interface Project {
 export const projectsData: Project[] = [
     {
         id: "project-1",
-        image: "/images/future-project.png",
+        image: Static,
         title: "projects.project1.title",
-        description: "projects.project1.description",
-        github: "https://github.com/your-username/project-one",
+        github: "https://github.com/isseabdirachid",
         label: "Project",
     },
     {
-        id: "project-2",
-        image: "/images/future-project.png",
+        id: "Project-2",
+        image: Connected,
         title: "projects.project2.title",
-        description: "projects.project2.description",
-        github: "https://github.com/your-username/project-two",
+        github: "https://github.com/isseabdirachid",
         label: "Project",
     },
     {
         id: "project-3",
-        image: "/images/future-project.png",
+        image: Dataextraction,
         title: "projects.project3.title",
-        description: "projects.project3.description",
-        github: "https://github.com/your-username/project-three",
+        github: "https://github.com/isseabdirachid",
         label: "Project",
     },
     {
         id: "project-4",
-        image: "/images/future-project.png",
+        image: Dashboard,
         title: "projects.project4.title",
-        description: "projects.project4.description",
-        github: "https://github.com/your-username/project-four",
+        github: "https://github.com/isseabdirachid",
         label: "Project",
     },
     {
         id: "project-5",
-        image: "/images/future-project.png",
+        image: Handcodingamico,
         title: "projects.project5.title",
-        description: "projects.project5.description",
-        github: "https://github.com/your-username/project-five",
+        github: "https://github.com/isseabdirachid",
         label: "Project",
     },
     {
         id: "project-6",
-        image: "/images/future-project.png",
+        image: Handcoding,
         title: "projects.project6.title",
-        description: "projects.project6.description",
-        github: "#",
+        github: "https://github.com/isseabdirachid",
         label: "Future Project",
     },
 ];

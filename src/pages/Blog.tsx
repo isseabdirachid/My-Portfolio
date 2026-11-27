@@ -1,13 +1,70 @@
+import { useMemo, useState } from "react";
+import { useTranslation } from "react-i18next";
 
+import BlogHero from "@/components/Blog/BlogHero";
+import BlogGrid from "@/components/Blog/BlogGrid";
+import type { BlogPost } from "@/components/Blog/BlogCard";
 import Footer from "@/components/Footer/Footer";
+import postData from "@/data/post.json";
 
 function Blog() {
+    const { i18n } = useTranslation();
+    const lang = i18n.language?.startsWith("en") ? "en" : "de";
+
+    const [query, setQuery] = useState("");
+    const [category, setCategory] = useState("all");
+    const [sort, setSort] = useState("newest");
+
+    const posts: BlogPost[] = useMemo(
+        () =>
+            postData.map((p) => {
+                const text = p[lang] ?? p.de;
+                return {
+                    slug: p.slug,
+                    image: p.image,
+                    category: p.category,
+                    date: p.date,
+                    readTime: p.readTime,
+                    author: p.author,
+                    title: text.title,
+                    excerpt: text.excerpt,
+                };
+            }),
+        [lang]
+    );
+
+    const visiblePosts = useMemo(() => {
+        const q = query.trim().toLowerCase();
+
+        return posts
+        .filter(
+            (post) =>
+                (category === "all" || post.category === category) &&
+                (!q ||
+                    post.title.toLowerCase().includes(q) ||
+                    post.excerpt.toLowerCase().includes(q))
+        )
+        .sort((a, b) =>
+            sort === "newest"
+                ? b.date.localeCompare(a.date)
+                : a.date.localeCompare(b.date)
+        );
+    }, [posts, query, category, sort]);
+
     return (
         <main>
-            <h1>About</h1>
+            <div className="bg-stone-50 dark:bg-slate-950">
+                <BlogHero
+                    query={query}
+                    onQueryChange={setQuery}
+                    category={category}
+                    onCategoryChange={setCategory}
+                    sort={sort}
+                    onSortChange={setSort}
+                />
+                <BlogGrid posts={visiblePosts} />
+            </div>
             <Footer />
-
-
         </main>
     );
 }
